@@ -14,27 +14,27 @@
 >
 > **反正闲着也是闲着。**
 
-##### 简介
-- 一枚程序猿 :monkey_face: 
+#### 简介
+- 一枚程序猿 
 - 手机电脑数码爱好者 :iphone:
 - 独自旅行 🚆
 - 梦想成为攻城狮 🍋
 - balabala... :book:
 
-##### 经历
+#### 经历
 
 - 💻python
 - 🛠pytorch, tensorflow
 - ⌨ResNet, MobileNet
 - 📚balabala...
 
+#### 笔记
 
+- [乱七八糟笔记](https://lblbk.github.io/lblbk)
 
-[文档](https://lblbk.github.io/lblbk)
+***
 
-
-
-![](https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg)
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
