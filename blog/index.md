@@ -1,10 +1,14 @@
-lblbk博客
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
+
+# **Martin**
 
 
 
-*索引*
+*bolg索引*
+
+
 
 2021.07.07
 
-- [examples](https://lblbk.github.io/blog/example.md)
+- [Batch Normalization](https://lblbk.github.io/blog/paper/batchnormalization)
 
