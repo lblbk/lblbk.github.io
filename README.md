@@ -15,11 +15,16 @@
 > **反正闲着也是闲着。**
 
 #### 简介
-- 一枚程序猿 
+- 一枚程序猿 :monkey:
 - 手机电脑数码爱好者 :iphone:
 - 独自旅行 🚆
 - 梦想成为攻城狮 🍋
 - balabala... :book:
+
+#### 笔记
+
+- **[乱七八糟笔记](https://lblbk.github.io/lblbk)**
+- **[blog](https://lblbk.github.io/blog/index.md)**
 
 #### 经历
 
@@ -27,10 +32,6 @@
 - 🛠pytorch, tensorflow
 - ⌨ResNet, MobileNet
 - 📚balabala...
-
-#### 笔记
-
-- [乱七八糟笔记](https://lblbk.github.io/lblbk)
 
 ***
 
