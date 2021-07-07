@@ -24,7 +24,7 @@
 #### 笔记
 
 - **[乱七八糟笔记](https://lblbk.github.io/lblbk)**
-- **[blog](https://lblbk.github.io/blog/index.md)**
+- **[blog](https://lblbk.github.io/blog/index)**
 
 #### 经历
 
