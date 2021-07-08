@@ -1,3 +1,5 @@
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
+
 **更新日常生活🛺**
 
 2021.05.17

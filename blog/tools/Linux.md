@@ -1,3 +1,5 @@
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
+
 # Linux命令收集
 
 ### Ubuntu Debian

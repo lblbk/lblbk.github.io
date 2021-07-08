@@ -1,3 +1,5 @@
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
+
 # Latex
 
 > 记录一下平常写latex公式时常用的命令
