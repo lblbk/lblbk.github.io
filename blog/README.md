@@ -36,7 +36,7 @@
 
 - [git](/blog/tools/git)
 - [latex](/blog/tools/latex)
-- [linux](/blog/tools/linux)
-- [markdown](/blog/tools/markdown)
-- [技巧](/blog/tools/tips)
+- [linux](/blog/tools/Linux)
+- [markdown](/blog/tools/md)
+- [tips](/blog/tools/tips)
 
