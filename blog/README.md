@@ -22,11 +22,18 @@
 
 
 
-2021.07.07
+**martin**
 
-- [Batch Normalization](https://lblbk.github.io/blog/paper/batchnormalization)
+- 
 
-2021.07.08
+**Paper**
 
-- [ResNet](https://lblbk.github.io/blog/paper/resnet)
+- 2021.07.07 [Batch Normalization](https://lblbk.github.io/blog/paper/batchnormalization)
+
+- 2021.07.08 [ResNet](https://lblbk.github.io/blog/paper/resnet)
+
+**tools**
+
+- [git](/blog/tools/git)
+- [linux](/blog/tools/linux)
 
