@@ -38,5 +38,5 @@
 - [latex](/blog/tools/latex)
 - [linux](/blog/tools/linux)
 - [markdown](/blog/tools/markdown)
-- [技巧](/blog/tools/knowledge)
+- [技巧](/blog/tools/tips)
 
