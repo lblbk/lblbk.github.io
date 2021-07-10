@@ -23,6 +23,10 @@
 | --------- | ---------------------------------------- | ------------------------------------------------- |
 | [主页](/) | **[blog](https://lblbk.github.io/blog)** | **[乱七八糟笔记](https://lblbk.github.io/lblbk)** |
 
+**martin**
+
+- [日常碎碎念](/martin)
+
 **Paper**
 
 - 2021.07.07 [Batch Normalization](/blog/paper/batchnormalization)
