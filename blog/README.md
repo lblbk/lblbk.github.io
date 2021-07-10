@@ -29,9 +29,8 @@
 
 **Paper**
 
-- 2021.07.07 [Batch Normalization](/blog/paper/batchnormalization)
-
-- 2021.07.08 [ResNet](/blog/paper/resnet)
+- [Batch Normalization](/blog/paper/batchnormalization)
+- [ResNet](/blog/paper/resnet)
 
 **tools**
 
