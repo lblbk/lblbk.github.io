@@ -18,7 +18,8 @@
 
 *导航*
 
-**[乱七八糟笔记](https://lblbk.github.io/lblbk)**			**[blog
+| **[乱七八糟笔记](https://lblbk.github.io/lblbk)** | **[blog](https://lblbk.github.io/blog)** |
+| :-----------------------------------------------: | :--------------------------------------: |
 
 **Paper**
 
