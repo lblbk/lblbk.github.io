@@ -16,14 +16,13 @@
 >
 > **反正闲着也是闲着。**
 
-<br></br>
+<br>
 
 *导航*
 
-- **[乱七八糟笔记](https://lblbk.github.io/lblbk)**
-- **[blog](https://lblbk.github.io/blog)**
+**[乱七八糟笔记](https://lblbk.github.io/lblbk)**	**[blog](https://lblbk.github.io/blog)**
 
-<br></br>
+<br>
 
 **Paper**
 
