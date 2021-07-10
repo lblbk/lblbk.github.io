@@ -25,7 +25,7 @@
 
 **martin**
 
-- [日常碎碎念](/martin/README)
+- [日常碎碎念](/blog//martin)
 
 **Paper**
 
