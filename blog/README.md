@@ -29,8 +29,11 @@
 
 **Paper**
 
+- [卷积](/blog/convolution)
+
 - [Batch Normalization](/blog/paper/batchnormalization)
 - [ResNet](/blog/paper/resnet)
+- [SE_Block](/blog/se_block)
 
 **tools**
 

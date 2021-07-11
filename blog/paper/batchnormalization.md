@@ -1,6 +1,6 @@
 <head>
-<style type="text/css">h1:first-child {display:none;}</style>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+	<style type="text/css">h1:first-child {display:none;}</style>
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -10,6 +10,7 @@
         });
     </script>
 </head>
+
 # Batch Normalization
 
 > 这篇是对 bn 使用中个人问题的总结 并不是论文翻译
