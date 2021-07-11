@@ -29,7 +29,9 @@
 
 **Paper**
 
-- [卷积](/blog/convolution)
+- [图像滤波](/blog/paper/image_processing)
+
+- [卷积](/blog/paper/convolution)
 
 - [Batch Normalization](/blog/paper/batchnormalization)
 - [ResNet](/blog/paper/resnet)
