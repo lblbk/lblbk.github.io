@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+	<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?..."></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -71,7 +71,7 @@ BatchNorm 默认打开 `track_running_stats`，因此每次 forward 时都会依
 
 Pytorch中的BN层的动量平滑和常见的动量法计算方式是相反的, `momentum` 默认值为 0.1，控制历史统计量与当前 minibatch 在更新 `running_mean`、`running_var` 时的相对影响。
 
-$running\_mean=running\_mean*(1-momentum)+E(x)*momentum$
+$ running\_mean=running\_mean*(1-momentum)+E(x)*momentum $
 
 $running\_var=running\_var*(1-momentum)+Var(x)*momentum$
 
