@@ -32,7 +32,7 @@ Normalization是一个统计学中的概念，我们可以叫它**归一化或�
 
 Google 将这一现象总结为 Internal Covariate Shift，简称 ICS. 什么是 ICS 呢？[@魏秀参](https://www.zhihu.com/people/b716bc76c2990cd06dae2f9c1f984e6d) 在[一个回答](https://www.zhihu.com/question/38102762/answer/85238569)中做出了一个很好的解释：
 
-> 大家都知道在统计机器学习中的一个经典假设是“源空间（source domain）和目标空间（target domain）的数据分布（distribution）是一致的”。如果不一致，那么就出现了新的机器学习问题，如 transfer learning / domain adaptation 等。而 covariate shift 就是分布不一致假设之下的一个分支问题，它是指源空间和目标空间的条件概率是一致的，但是其边缘概率不同，即：对所有 $x \in \chi, P_s(Y|X=x)=P_t(Y|X=x)$, 但是$P_s(X)\neq P_t(X)$, 大家细想便会发现，的确，对于神经网络的各层输出，由于它们经过了层内操作作用，其分布显然与各层对应的输入信号分布不同，而且差异会随着网络深度增大而增大，可是它们所能“指示”的样本标记（label）仍然是不变的，这便符合了covariate shift的定义。由于是对层间信号的分析，也即是“internal”的来由。
+> 大家都知道在统计机器学习中的一个经典假设是“源空间（source domain）和目标空间（target domain）的数据分布（distribution）是一致的”。如果不一致，那么就出现了新的机器学习问题，如 transfer learning / domain adaptation 等。而 covariate shift 就是分布不一致假设之下的一个分支问题，它是指源空间和目标空间的条件概率是一致的，但是其边缘概率不同，即：对所有 $$x \in \chi, P_s(Y|X=x)=P_t(Y|X=x)$$, 但是$$P_s(X)\neq P_t(X)$$, 大家细想便会发现，的确，对于神经网络的各层输出，由于它们经过了层内操作作用，其分布显然与各层对应的输入信号分布不同，而且差异会随着网络深度增大而增大，可是它们所能“指示”的样本标记（label）仍然是不变的，这便符合了covariate shift的定义。由于是对层间信号的分析，也即是“internal”的来由。
 
 **ICS 会导致什么问题？**
 
