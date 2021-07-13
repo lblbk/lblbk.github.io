@@ -2,9 +2,11 @@
 
 # Linux命令收集
 
-### Ubuntu Debian
+> 记录日常使用 ubuntu 遇到的问题和解决方法
 
-###### 列出Ubuntu和Debian已安装软件包
+### Ubuntu
+
+#### 包管理
 
 - apt命令
 
@@ -24,7 +26,7 @@
 
   `flatpak list`
 
-###### 列出最近安装软件包
+##### 列出最近安装软件包
 
 Linux 系统保存了所有发生事件的日志。你可以参考最近安装软件包的日志。有两个方法可以来做。用 `dpkg` 命令的日志或者 `apt` 命令的日志。
 
@@ -37,12 +39,16 @@ Linux 系统保存了所有发生事件的日志。你可以参考最近安装�
 - 查看 `apt` 历史命令日志。这个仅会显示用 `apt` 命令安装的的程序
 
   `grep " install " /var/log/apt/history.log`
+  
+  
 
-###### 切换管理员
+#### 权限管理
 
 - `sudo su`
 
-安装`node`
+
+
+#### 安装 `node`
 
 下载好之后，在文件中切换到刚才的下载目录（我的浏览器将node包下载到了 /download 文件夹）
 
@@ -95,4 +101,20 @@ $ sudo ln -s usr/local/share/node-v14.15.1-linux-x64/lib/node_modules/cnpm/bin /
 ```
 $cnpm
 ```
+
+
+
+### QA
+
+##### GPU
+
+- 训练时脚本停止了，gpu显存仍然被占用
+
+  `ps aux|grep user_name|grep python` 查看当前用户所有程序，并过滤python
+
+  `kill -s 9 pid` 杀掉指定进程
+
+  命令解释一下：[kill 与 kill -9 的区别 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/143635282)
+
+  > 其实用 nvidia-smi 查看后就能看到python脚本的pid, 直接杀掉就可以
 
