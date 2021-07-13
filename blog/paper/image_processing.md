@@ -1,3 +1,16 @@
+<head>
+	<style type="text/css">h1:first-child {display:none;}</style>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 图像基础
 
 > 自己本身也不是传统视觉出身，但日常工作中经常遇到传统cv处理的概念和方法，自己零零碎碎接触很多，故总结一下

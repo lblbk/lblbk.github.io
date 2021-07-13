@@ -1,14 +1,26 @@
-待整理...
+<head>
+	<style type="text/css">h1:first-child {display:none;}</style>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
-dcn
 
-双线性卷积
 
-可分离卷积
+# 卷积
 
-卷积（convolution）是深度学习中非常有用的计算操作，主要用于提取图像的特征。在近几年来深度学习快速发展的过程中，卷积从标准卷积演变出了反卷积、可分离卷积、分组卷积等各种类型，以适应于不同的场景，接下来一起来认识它们吧。
+> 未整理完成 dcn 双线性卷积 可分离卷积
 
-**一、卷积的基本属性**  
+卷积（convolution）是深度学习中非常有用的计算操作，主要用于提取图像的特征。
+
+### 一、卷积的基本属性 
+
 **卷积核（Kernel）：**卷积操作的感受野，直观理解就是一个滤波矩阵，普遍使用的卷积核大小为3×3、5×5等；  
 **步长（Stride）：**卷积核遍历特征图时每步移动的像素，如步长为1则每次移动1个像素，步长为2则每次移动2个像素（即跳过1个像素），以此类推；  
 **填充（Padding）：**处理特征图边界的方式，一般有两种，一种是对边界外完全不填充，只对输入像素执行卷积操作，这样会使输出特征图的尺寸小于输入特征图尺寸；另一种是对边界外进行填充（一般填充为0），再执行卷积操作，这样可使输出特征图的尺寸与输入特征图的尺寸一致；  
@@ -16,12 +28,21 @@ dcn
 如下图是一个卷积核（kernel）为3×3、步长（stride）为1、填充（padding）为1的二维卷积：  
 ![](https://oscimg.oschina.net/oscnet/ed70c6c8660ea0d8c23a60b69a750aaf1ef.jpg)
 
-**二、卷积的计算过程**  
-卷积的计算过程非常简单，当卷积核在输入图像上扫描时，将卷积核与输入图像中对应位置的数值逐个相乘，最后汇总求和，就得到该位置的卷积结果。不断移动卷积核，就可算出各个位置的卷积结果。如下图：  
+### 二、卷积的计算过程
+
+卷积公式：
+
+$$w(s, t)*f(x, y)=\sum^{a}_{s=-a}\sum^{b}_{s=-b}w(s, t)*f(x-s, y-t)$$
+
+卷积的计算过程非常简单，当卷积核在输入图像上扫描时，将卷积核与输入图像中对应位置的数值逐个相乘，最后汇总求和，就得到该位置的卷积结果。不断移动卷积核，就可算出各个位置的卷积结果。如下图：
 ![](https://oscimg.oschina.net/oscnet/3e0200b4dbbc34d2f96e20aa5e072c1ff4a.jpg)   
-**三、卷积的各种类型**  
+
+### 三、卷积的各种类型
+
 卷积现在已衍生出了各种类型，包括标准卷积、反卷积、可分离卷积、分组卷积等等，下面逐一进行介绍。  
-**1、标准卷积**  
+
+#### **1、标准卷积** 
+
 **（1）二维卷积（单通道卷积版本）（2D Convolution: the single channel version）**  
 只有一个通道的卷积。  
 如下图是一个卷积核（kernel）为3×3、步长（stride）为1、填充（padding）为0的卷积：  
