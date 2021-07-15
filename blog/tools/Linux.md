@@ -118,3 +118,51 @@ $cnpm
 
   > 其实用 nvidia-smi 查看后就能看到python脚本的pid, 直接杀掉就可以
 
+##### nvidia-smi 命令报错
+- nvidia-smi 出错
+
+`Failed to initialize NVML: Driver/library version mismatch`
+
+- 解决方式
+
+查找驱动
+
+```bash
+ubuntu18:~$ ubuntu-drivers devices
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00002204sv00001458sd00004043bc03sc00i00
+vendor   : NVIDIA Corporation
+manual_install: True
+driver   : nvidia-driver-465 - third-party free recommended
+driver   : nvidia-driver-460-server - distro non-free
+driver   : nvidia-driver-460 - third-party free
+driver   : xserver-xorg-video-nouveau - distro free builtin
+
+```
+查看本机内核版本
+
+```bash
+ubuntu18:~$ cat /proc/driver/nvidia/version
+NVRM version: NVIDIA UNIX x86_64 Kernel Module  460.27.04  Fri Dec 11 23:35:05 UTC 2020
+GCC version:  gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+```
+
+查看安装日志
+```bash
+ubuntu18:~$ cat /var/log/dpkg.log | grep nvidia
+2021-07-14 14:33:49 install libnvidia-compute-465:amd64 <无> 465.31-0ubuntu0.18.04.1
+2021-07-14 14:33:49 status half-installed libnvidia-compute-465:amd64 465.31-0ubuntu0.18.04.1
+2021-07-14 14:33:50 status unpacked libnvidia-compute-465:amd64 465.31-0ubuntu0.18.04.1
+2021-07-14 14:33:50 status unpacked libnvidia-compute-465:amd64 465.31-0ubuntu0.18.04.1
+2021-07-14 14:33:54 configure libnvidia-compute-465:amd64 465.31-0ubuntu0.18.04.1 <无>
+2021-07-14 14:33:54 status unpacked libnvidia-compute-465:amd64 465.31-0ubuntu0.18.04.1
+
+```
+
+查看驱动程序
+
+```bash
+ubuntu18:~$ sudo dpkg --list | grep nvidia-*
+
+ii  libnvidia-compute-465:amd64                465.31-0ubuntu0.18.04.1                          amd64        NVIDIA libcompute package
+```
