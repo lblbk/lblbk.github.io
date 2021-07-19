@@ -102,7 +102,10 @@ $ sudo ln -s usr/local/share/node-v14.15.1-linux-x64/lib/node_modules/cnpm/bin /
 $cnpm
 ```
 
+#### `nohup`
 
+```bash
+nohup python main.py >>nohup.out 2>&1 &
 
 ### QA
 
