@@ -40,6 +40,7 @@
 
 - [git](/blog/tools/git)
 - [caffe](/blog/tools/caffe)
+- [openCV](/blog/tools/opencv)
 - [latex](/blog/tools/latex)
 - [linux](/blog/tools/Linux)
 - [markdown](/blog/tools/md)
