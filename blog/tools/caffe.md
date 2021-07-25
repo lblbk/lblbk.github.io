@@ -127,3 +127,29 @@ sudo ln -s libboost_python39.a libboost_python3.a
 
 如果不存在，需要自己编译一个，给链接自己去编译吧 [教程](https://www.cnblogs.com/chenfeifen/p/13412125.html)
 
+##### 环境变量
+
+具体加在那个配置文件自己决定
+
+```bash
+sudo vim ~/.profile
+```
+
+合适地方添加，`caffe_path` 就是 `caffe` 在你电脑位置
+
+```bash
+export PYTHONPATH=caffe_path/caffe/python:$PYTHONPATH
+```
+
+刷新环境变量
+
+```bash
+source ~/.profile
+```
+
+##### 验证
+
+```bash
+python
+> import caffe
+```
