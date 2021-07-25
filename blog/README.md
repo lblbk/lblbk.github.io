@@ -39,6 +39,7 @@
 **tools**
 
 - [git](/blog/tools/git)
+- [caffe](/blog/tools/caffe)
 - [latex](/blog/tools/latex)
 - [linux](/blog/tools/Linux)
 - [markdown](/blog/tools/md)
