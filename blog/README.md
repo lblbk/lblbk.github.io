@@ -33,8 +33,9 @@
 - [卷积](/blog/paper/convolution)
 - [Batch Normalization](/blog/paper/batchnormalization)
 - [ResNet](/blog/paper/resnet)
-- [SE_Block](/blog/se_block)
+- [SE_Block](/blog/paper/se_block)
 - [MobileNetV3](/blog/paper/mobilenetv3)
+- [U-Net](/blog/paper/unet)
 
 **tools**
 
