@@ -237,6 +237,10 @@ git blame 'filename'
 git blame 'filename' -l
 ```
 
+### 多账号`git`设置
+
+[Git配置多账号切换，GitLab和GitHub分开账户 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/105359388)
+
 ### Bugs
 
 ##### 下载仓库问题
