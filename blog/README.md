@@ -22,13 +22,13 @@
 
 **C++**
 
-- [编译器](/blog/tools/compiler)
+- [编译器](/blog/cpp/compiler)
 
 **Linux**
 
-- [linux](/blog/tools/Linux)
-- [caffe](/blog/tools/caffe)
-- [openCV](/blog/tools/opencv)
+- [linux](/blog/linux/linux)
+- [caffe](/blog/linux/caffe)
+- [openCV](/blog/linux/opencv)
 
 **Tools**
 
