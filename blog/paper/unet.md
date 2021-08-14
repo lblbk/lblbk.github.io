@@ -1,3 +1,5 @@
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
+
 # U-Net
 
 > 原文链接 [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)

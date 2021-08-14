@@ -21,7 +21,7 @@
 
 | 导航      |                                          |                                                   |
 | --------- | ---------------------------------------- | ------------------------------------------------- |
-| [主页](/) | **[blog](https://lblbk.github.io/blog)** | **[乱七八糟笔记](https://lblbk.github.io/lblbk)** |
+| [主页](/) | **[Blog](https://lblbk.github.io/blog)** | **[Docs](https://lblbk.github.io/lblbk)** |
 
 
 ### 简介
@@ -46,12 +46,16 @@
 
 - 人脸关键点检测 pfld算法
 - 图像抠图
-
 - 双边网格(Bilateral Grid)
+- SNPE 手机端部署
+
+### 开源
+
+- [Blog 理论基础知识](https://lblbk.github.io/blog)
+- [Docs 某些算法或者技巧的代码实现](https://lblbk.github.io/lblbk)
 
 ***
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
-
