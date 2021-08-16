@@ -2,9 +2,9 @@
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
-| 导航      |                                          |                                                   |
-| --------- | ---------------------------------------- | ------------------------------------------------- |
-| [主页](/) | **[blog](https://lblbk.github.io/blog)** | **[乱七八糟笔记](https://lblbk.github.io/lblbk)** |
+| 导航      |                                          |                                           |
+| --------- | ---------------------------------------- | ----------------------------------------- |
+| [主页](/) | **[Blog](https://lblbk.github.io/blog)** | **[Docs](https://lblbk.github.io/lblbk)** |
 
 **martin**
 
@@ -17,6 +17,7 @@
 - [Batch Normalization](/blog/paper/batchnormalization)
 - [ResNet](/blog/paper/resnet)
 - [SE_Block](/blog/paper/se_block)
+- [MobileNetV1](/blog/paper/mobilenetv1)
 - [MobileNetV3](/blog/paper/mobilenetv3)
 - [U-Net](/blog/paper/unet)
 
