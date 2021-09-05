@@ -1,3 +1,16 @@
+<head>
+	<style type="text/css">h1:first-child {display:none;}</style>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # MODNet
 
 > 这是一篇效果很不错的扣像论文 地址https://arxiv.org/pdf/2011.11961.pdf
@@ -43,6 +56,7 @@ $$
 合成损失函数：
 
 由两个损失函数构成
+
 $$
 L_{\alpha}=||\alpha_p - \alpha_g||_1 + L_{c}
 $$
@@ -50,6 +64,7 @@ $$
 $$
 L_c=\sqrt{c^{i}_{p} - c^{i}_{g}+\epsilon^2}
 $$
+
 下面损失函数来源于DIM这篇论文，组合损失，它是真实 RGB 颜色与由真实前景、真实背景和预测的 alpha 遮罩合成的预测 RGB 颜色之间的绝对差异。同样，我们通过使用以下损失函数来近似它
 
 ### 策略
