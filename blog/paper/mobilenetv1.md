@@ -30,17 +30,7 @@ Laurent Sifre博士2013年在谷歌实习期间，将可分离卷积拓展到了
 
 空间可分离就是将一个大的卷积核变成两个小的卷积核，比如将一个3*3的核分成一个3*1 和一个 1*3 的核
 $$
-\begin{bmatrix}
-1 & 2 & 3 \\
-0 & 0 & 0 \\
-2 & 4 & 6
-\end{bmatrix} = \begin{bmatrix}
-1 \\
-0 \\
-2 \end{bmatrix} *
-\begin{bmatrix}
-1 & 2 & 3
-\end{bmatrix}
+\begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 2 & 4 & 6 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \\ 2 \end{bmatrix} * \begin{bmatrix} 1 & 2 & 3 \end{bmatrix}
 $$
 详细内容可以去看看论文，不多讲
 
@@ -95,9 +85,15 @@ $$
 
 按照原论文中的计算方式, 几个参数的含义可以按照图片理解
 
-参数量:  $D_{K}*D_{K}*M*N$
+参数量: 
+$$
+D_{K}*D_{K}*M*N
+$$
 
-计算量: $D_{K}*D_{K}*M*N*D_{W}*D_{H}$
+计算量: 
+$$
+D_{K}*D_{K}*M*N*D_{W}*D_{H}
+$$
 
 ##### 1.4.2 深度可分离卷积计算量
 
