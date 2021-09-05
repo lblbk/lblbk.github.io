@@ -21,6 +21,7 @@
 - [MobileNetV2](/blog/paper/mobilenetv2)
 - [MobileNetV3](/blog/paper/mobilenetv3)
 - [U-Net](/blog/paper/unet)
+- [MODNet](/blog/paper/modnet)
 
 **C++**
 

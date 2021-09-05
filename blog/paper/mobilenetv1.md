@@ -10,6 +10,7 @@
         });
     </script>
 </head>
+
 # MobileNet
 
 > [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
@@ -145,6 +146,8 @@ MobileNet提出新型组合方式 DWConv -> BN -> Relu -> PWConv -> BN -> Relu
 
 MobileNet 中使用了ReLU6作为激活函数，这个激活函数在 float16/int8 的嵌入式设备中效果很好，能较好的保持网络的鲁棒性。更多的ReLU6，增加了模型的非线性变化，增强了模型的泛化能力。
 
+图像后续补充
+
 ReLU6 就是普通的ReLU，但是限制最大输出值为6（对输出值做 clip），这是为了在移动端设备float16的低精度的时候，也能有很好的数值分辨率，如果对ReLU的激活范围不加限制，输出范围为0到正无穷，如果激活值非常大，分布在一个很大的范围内，则低精度的float16无法很好地精确描述如此大范围的数值，带来精度损失.
 
 ##### 2.1.3 Width Multiplier: Thinner Models
@@ -163,7 +166,7 @@ $$
 
 #### 2.2 网络架构
 
-MobileNet网络架构是比较清晰明了的，通过基本小模块组装的基本模块conv dw组成，整个模型是一个流线型，具体参数如下表
+MobileNet网络架构是比较清晰明了的，通过基本小模块组装的基本模块conv dw组成，整个模型是一个流线型，一共由 28层构成（不包括AvgPool 和 FC 层，且把深度卷积和逐点卷积分开算），其除了第一层采用的是标准卷积核之外，剩下的卷积层都是用Depth Wise Separable Convolution, 具体参数如下表
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_arch.png" style="zoom:50%;" />
 
