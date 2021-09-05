@@ -29,9 +29,11 @@ Laurent Sifre博士2013年在谷歌实习期间，将可分离卷积拓展到了
 #### 1.1 空间可分离卷积
 
 空间可分离就是将一个大的卷积核变成两个小的卷积核，比如将一个3*3的核分成一个3*1 和一个 1*3 的核
+
 $$
 \begin{bmatrix} 1 & 2 & 3 \\ 0 & 0 & 0 \\ 2 & 4 & 6 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \\ 2 \end{bmatrix} * \begin{bmatrix} 1 & 2 & 3 \end{bmatrix}
 $$
+
 详细内容可以去看看论文，不多讲
 
 #### 1.2 深度可分离卷积
@@ -102,12 +104,15 @@ $$
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_flops2.png" style="zoom:33%;" />
 
 参数量: 
+
 $$
 D_{K=3}*D_{K=3}*M*N_{c=1} + D_{K=1}*D_{K=1}*M*N
 $$
+
  所以简化为图片公式
 
 计算量: 
+
 $$
 D_{K=3}*D_{K=3}*M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*M*N*D_{W}*D_{H}
 $$
@@ -146,11 +151,15 @@ ReLU6 就是普通的ReLU，但是限制最大输出值为6（对输出值做 cl
 
 **宽度因子 alpha （Width Mutiplier）在每一层对网络的输入输出通道数进行缩减**，输出通道数由 M 到 alpha\*M，输出通道数由 N 到 alpha*N，变换后的计算量为：
 
-$D_{K=3}*D_{K=3}*\alpha M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*\alpha M*N*D_{W}*D_{H}$
+$$
+D_{K=3}*D_{K=3}*\alpha M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*\alpha M*N*D_{W}*D_{H}
+$$
 
 **分辨率因子 rho （resolution multiplier）**用于控制输入和内部层表示，即用分辨率因子控制输入的分辨率，深度卷积和逐点卷积的计算量为
 
-$D_{K=3}*D_{K=3}*\alpha M*N_{c=1}* \rho D_{W}* \rho D_{H} + D_{K=1}*D_{K=1}*\alpha M*N* \rho D_{W}* \rho D_{H}$
+$$
+D_{K=3}*D_{K=3}*\alpha M*N_{c=1}* \rho D_{W}* \rho D_{H} + D_{K=1}*D_{K=1}*\alpha M*N* \rho D_{W}* \rho D_{H}
+$$
 
 #### 2.2 网络架构
 
