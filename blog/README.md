@@ -18,6 +18,7 @@
 - [ResNet](/blog/paper/resnet)
 - [SE_Block](/blog/paper/se_block)
 - [MobileNetV1](/blog/paper/mobilenetv1)
+- [MobileNetV2](/blog/paper/mobilenetv2)
 - [MobileNetV3](/blog/paper/mobilenetv3)
 - [U-Net](/blog/paper/unet)
 

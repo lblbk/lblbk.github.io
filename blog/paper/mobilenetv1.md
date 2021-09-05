@@ -143,11 +143,13 @@ ReLU6 就是普通的ReLU，但是限制最大输出值为6（对输出值做 cl
 
 ##### 2.1.3 Width Multiplier: Thinner Models
 
-**宽度因子 alpha （Width Mutiplier）在每一层对网络的输入输出通道数进行缩减**，输出通道数由 M 到 alpha*M，输出通道数由 N 到 alpha*N，变换后的计算量为：
+**宽度因子 alpha （Width Mutiplier）在每一层对网络的输入输出通道数进行缩减**，输出通道数由 M 到 alpha\*M，输出通道数由 N 到 alpha*N，变换后的计算量为：
 
-
+$D_{K=3}*D_{K=3}*\alpha M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*\alpha M*N*D_{W}*D_{H}$
 
 **分辨率因子 rho （resolution multiplier）**用于控制输入和内部层表示，即用分辨率因子控制输入的分辨率，深度卷积和逐点卷积的计算量为
+
+$D_{K=3}*D_{K=3}*\alpha M*N_{c=1}* \rho D_{W}* \rho D_{H} + D_{K=1}*D_{K=1}*\alpha M*N* \rho D_{W}* \rho D_{H}$
 
 #### 2.2 网络架构
 
@@ -155,4 +157,10 @@ MobileNet网络架构是比较清晰明了的，通过基本小模块组装的�
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_arch.png" style="zoom:50%;" />
 
-> 后续继续完善
+### 3 总结
+
+这里给出一张原论文中的参数量和准确率对比图，可以看到在参数明显减少的情况下，准确度并没有下降多少
+
+![](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mbnv1-test.png)
+
+> 暂时更新到这里，后续继续更新
