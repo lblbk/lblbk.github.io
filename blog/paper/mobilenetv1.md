@@ -34,14 +34,10 @@ $$
 1 & 2 & 3 \\
 0 & 0 & 0 \\
 2 & 4 & 6
-\end{bmatrix}
-=
-\begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
 1 \\
 0 \\
-2
-\end{bmatrix}
-*
+2 \end{bmatrix} *
 \begin{bmatrix}
 1 & 2 & 3
 \end{bmatrix}
@@ -107,9 +103,9 @@ $$
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_flops2.png" style="zoom:33%;" />
 
-参数量: $D_{K=3}*D_{K=3}*M*N_{c=1} + D_{K=1}*D_{K=1}*M*N$ 所以简化为图片公式
+参数量: $$D_{K=3}*D_{K=3}*M*N_{c=1} + D_{K=1}*D_{K=1}*M*N$$ 所以简化为图片公式
 
-计算量: $D_{K=3}*D_{K=3}*M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*M*N*D_{W}*D_{H}$
+计算量: $$D_{K=3}*D_{K=3}*M*N_{c=1}*D_{W}*D_{H} + D_{K=1}*D_{K=1}*M*N*D_{W}*D_{H}$$
 
 ##### 1.4.3 计算量比较
 
