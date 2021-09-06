@@ -33,7 +33,7 @@ MobileNet V1 的结构较为简单，另外，主要的问题还是在Depthwise 
 
 ### V2改进
 
-高维信息变换回低维度信息时，相当于做了一次特征压缩，会损失一部分信息，而再进行过ReLU后，损失的部分就更大了
+高维信息变换回低维度信息时，相当于做了一次特征压缩，会损失一部分信息，再进行ReLU后，损失的部分就更大了
 
 #### Inverted Residuals
 
@@ -62,21 +62,15 @@ MobileNet V1 的结构较为简单，另外，主要的问题还是在Depthwise 
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mbnv2comp.png" style="zoom:50%;" />
 
-v2是在v1基础上发展而来，所以总结一下
+上面图片是论文给出的深度可分离卷积进化过程，v2仍然使用 v1 提出 bottleneck layer 、Expansion layer 方式，在这个基础上更新了以上两点，用来解决训练中卷积核废掉的情况。
 
-相同：
 
-bottleneck layer
-
-Expansion layer
-
-不同，也就是v2的创新点：
-
-上面讲述的两点
 
 ### 结构
 
 依据论文中V2的网络结构。其中，t 为扩张稀疏，c 为输出通道数，n 为该层重复的次数，s为步长。 V2 网络比V1网络深了很多，V2有54层
+
+在实际使用中，v2效果和速度也比v1要快一些
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/mbnv2test.png" style="zoom:80%;" />
 

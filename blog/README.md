@@ -14,6 +14,7 @@
 
 - [图像滤波](/blog/paper/image_processing)
 - [卷积](/blog/paper/convolution)
+- [激活函数](/blog/paper/activation)
 - [Batch Normalization](/blog/paper/batchnormalization)
 - [ResNet](/blog/paper/resnet)
 - [SE_Block](/blog/paper/se_block)
@@ -21,6 +22,7 @@
 - [MobileNetV2](/blog/paper/mobilenetv2)
 - [MobileNetV3](/blog/paper/mobilenetv3)
 - [U-Net](/blog/paper/unet)
+- [U2Net](/blog/paper/u2net)
 - [MODNet](/blog/paper/modnet)
 
 **C++**
