@@ -42,3 +42,10 @@
 - [markdown](/blog/tools/md)
 - [tips](/blog/tools/tips)
 
+***
+
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
+
+*🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
+
+*🎉本文档主要记录实现方式*
