@@ -24,6 +24,7 @@
 - [U-Net](/blog/paper/unet)
 - [U2Net](/blog/paper/u2net)
 - [MODNet](/blog/paper/modnet)
+- [RVM](/blog/paper/RVM)
 
 **C++**
 
