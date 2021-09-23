@@ -1,3 +1,16 @@
+<head>
+	<style type="text/css">h1:first-child {display:none;}</style>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # Robust High-Resolution Video Matting with Temporal Guidance
 
 > 一篇视频扣像论文，实时性很不错，效果不知道怎么样
@@ -135,4 +148,86 @@ class BottleneckBlock(nn.Module):
 
 #### 损失函数
 
+训练是在分割数据集和matting数据集同时训练，所以损失分为两大块，semantic segmentation loss 和 matting loss, 说明一下，右上角带星号是ground truth，不带星号是prediction
+
+semantic segmentation loss采用交叉熵损失, segmentation probabil-ity $S_t$ w.r.t. the ground-truth binary label $S^∗_t$
+
+$$
+L^S=S^*_t(-log(S_t))+(1-S^*_t)(-log(1-S_t))
+$$
+
+matting loss由四个小部分构成
+
+首先是 alpha 采用 L1 loss
+
+$$
+L^{\alpha}_{l1}=||\alpha_t - \alpha^*_t||_1
+$$
+
+然后是 pyramid Laplacian loss
+
+$$
+L^{\alpha}_{lap}=\sum^5_{s=1}\frac{2^{s-1}}{5}||L^s_pyr(\alpha_t) - L^s_pyr(\alpha^*_t)||_1
+$$
+
+temporal coherence loss, to reduce flicker 感觉有点像 MODNet 中的一个后处理操作
+
+$$
+L^{\alpha}_{tc}=||\frac{d\alpha_t}{dt} - \frac{d\alpha^*_t}{dt}||_2
+$$
+
+To learn foreground，上面是对alpha的学习，下面是对合成前景的损失
+
+同样是 L1 损失
+
+$$
+L^F_{l1}=||(\alpha^*>0)*(F_t - F^*_t)||_1
+$$
+
+同样有一个 temporal coherence loss
+
+$$
+L^{F}_{tc}=||\frac{dF_t}{dt} - \frac{dF^*_t}{dt}||_2
+$$
+
+总损失就是他们相加，不过两个 temporal coherence loss 的系数是5，增大这个损失
+
 ### Experimental Evaluation
+
+实验的效果图片就不多放了，感兴趣可以去论文里面查看效果，这里贴出该算法与其他算法的对比情况
+
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/RVM_metrics2.png" style="zoom: 50%;" />
+
+FGF也就是上采样还原模块，这里主要对比是 MODNet ，可以看到各方面提升很明显，我以前也用过MODNet, 效果确实不是很好，人像扣取并不完整
+
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/RVM_metrics.png" style="zoom: 33%;" />
+
+这部分是速度的对比，实时扣像中效果和MODNet的对比效果，1080P的时候RVM的FPS最高
+
+### Ablation Studies
+
+这个部分作者对上述的几个模块进行消光实验，并解释说明这个模块的重要性
+
+#### Role of Temporal Information
+
+时间信息模块的作用首先是消除闪烁，MODNet尽管可以达到实时，但是使用过程中会出现闪烁很严重的情况。“我们进一步检查循环隐藏状态。在图 6 中，我们发现我们的网络已经自动学会了随着时间的推移而重建背景，并将这些信息保留在其循环通道中以帮助未来的预测。它还使用其他循环通道来跟踪运动历史。我们的方法甚至尝试在视频包含相机运动时重建背景，并且能够忘记无用的内存镜头剪辑。更多的例子在补充中。”，对于移动的背景 可以很好的重建背景
+
+#### Role of Segmentation Training Objective
+
+训练的时候和分割一块训练，从而保证算法的稳健，“COCO 验证集上的分割性能。使用分割目标进行训练使我们的方法健壮比起仅使用预训练权重进行训练回归”，分割算法目前发展的非常成熟，结果非常的稳定健壮，在分割的基础上继续改进边缘，达到扣像的效果，理论来说确实可以达到很不错的效果
+
+#### Role of Deep Guided Filter
+
+“表 6 显示，与 FGF 相比，DGF 仅具有很小的开销和速度。 DGF具有更好的Gradmetric，说明其高分辨率细节更准确。 DGF 还产生由 dtSSD 度量指示的更连贯的结果，可能是因为它考虑了循环解码器的隐藏特征。 MAD 和 MSE 指标是不确定的，因为它们由分段级别的错误主导，而 DGF 或 FGF 都没有纠正这些错误”
+
+论文对这个部分的作用并没有详细阐述，这个部分是改自另一篇论文，这个地方的底层算法就是对结果进行一次上采样，采用非深度学习的方法可以减少计算量
+
+#### Limitations
+
+“我们的方法更喜欢目标主题明确的视频。当背景中有人时，感兴趣的主题变得模糊。它还支持更简单的背景以产生更准确的抠图。图 7 显示了具有挑战性的案例的示例。”
+
+这也是扣像的一个问题所在，到底什么是前景，什么是背景，单单用数据集来告诉模型前景背景够不够。
+
+
+
+> 这是字节最新开源的一篇论文，看demo效果确实很不错，论文中的各个指标很华丽，通常情况下自己动手实验效果不是很好。但论文有两个亮点，一个就是利用DGF降低计算量，这个和我们最近在做的一个工作类似；另一个亮点就是时间信息的加入，这个模型一开始就是为了视频扣像设计的。这点很值得思考。
