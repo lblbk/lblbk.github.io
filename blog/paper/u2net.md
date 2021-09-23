@@ -15,4 +15,5 @@
 
 > U2Net 一篇很意思的论文，并不是效果很好但实时性很差
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210808151739.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210808151739.png" style="zoom: 33%;" />
+

@@ -136,15 +136,21 @@ class BottleneckBlock(nn.Module):
 
 这个算子是在另一篇论文中提出，后续可能会补充一下
 
-这个部分更像是一个固定操作，偏传统图像，除了这个方法双边网格也可以实现类似的效果
+这个地方在这篇论文中更像是一个插件的形式存在，提出这个模块的论文实际是采用引导滤波的方式进行上采样，思想和HDRNet相同，不同的是HDRNet采用的是双边滤波的方式进行上采样
 
 ### 训练
 
-这个模型的训练看起来训练是很复杂的，分成四个步骤单独训练
+#### 程序训练
+
+这个模型的训练看起来训练是很复杂的，分成四个步骤单独训练，这里就贴一张训练的大概流程
+
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/RVM_train.png" style="zoom: 33%;" />
 
 #### 数据集
 
-#### 程序训练
+数据集使用是 VideoMatte240K  (VM)  [22], Distinctions-646  (D646)  [30],  Adobe  Image  Matting(AIM) [45] 
+
+ 分割数据集采用 image segmentation  datasets YouTubeVIS(背景是移动的)  COCO [23] and SPD [40].
 
 #### 损失函数
 
