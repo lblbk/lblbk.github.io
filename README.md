@@ -49,10 +49,10 @@
 - 双边网格(Bilateral Grid)
 - SNPE 手机端部署
 
-### 开源
+### 文档
 
 - [Blog 理论基础知识](https://lblbk.github.io/blog)
-- [Docs 某些算法或者技巧的代码实现](https://lblbk.github.io/lblbk)
+- [Docs 算法代码实现](https://lblbk.github.io/lblbk)
 
 ***
 
