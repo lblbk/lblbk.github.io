@@ -10,8 +10,9 @@
         });
     </script>
 </head>
-
 # Robust High-Resolution Video Matting with Temporal Guidance
+
+*2021.08*
 
 > 一篇视频扣像论文，实时性很不错，效果不知道怎么样
 >
