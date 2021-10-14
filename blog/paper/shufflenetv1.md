@@ -29,7 +29,7 @@
 
 > 后续会补充组卷积基本知识
 
-### 2.2 Channel  Shuffle  Operation
+### 2.2 Channel Shuffle Operation
 
 在目前的一些主流网络中，通常使用pointwise卷积进行维度的降低，从而降低网络的复杂度，但由于输入维度较高，pointwise卷积的开销是十分巨大的。对于小网络而言，昂贵的pointwise卷积会带来明显的性能下降，比如在ResNext unit中，pointwise卷积占据了93.4%的计算量。为此，论文引入了分组卷积，首先探讨了两种ShuffleNet的实现：
 
@@ -88,4 +88,4 @@ ShuffleNet的核心在于使用channel shuffle操作弥补分组间的信息交�
 
 论文是很早的了，我的文笔也写不那么好，只是在原有博主基础上做了增添而已，但理解起来还是比较简单的。
 
-[ShuffleNetV1/V2简述 | 轻量级网络 - 晓飞的算法工程笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/VincentLee/p/13253536.html)
+[ShuffleNetV1/V2简述 轻量级网络 - 晓飞的算法工程笔记 - 博客园 (cnblogs.com)](https://www.cnblogs.com/VincentLee/p/13253536.html)
