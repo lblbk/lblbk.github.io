@@ -21,6 +21,8 @@
 - [MobileNetV1](/blog/paper/mobilenetv1)
 - [MobileNetV2](/blog/paper/mobilenetv2)
 - [MobileNetV3](/blog/paper/mobilenetv3)
+- [ShuffleNetV1](/blog/paper/shufflenetv1)
+- [ShuffleNetV2](/blog/paper/shufflenetv2)
 - [U-Net](/blog/paper/unet)
 - [U2Net](/blog/paper/u2net)
 - [MODNet](/blog/paper/modnet)
