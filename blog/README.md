@@ -12,6 +12,7 @@
 
 **Paper**
 
+<<<<<<< HEAD
 - Base
   - [图像滤波](/blog/paper/image_processing)
   - [卷积](/blog/paper/convolution)
@@ -34,6 +35,23 @@
 - Matting
   - [MODNet](/blog/paper/modnet)
   - [RVM](/blog/paper/RVM)
+=======
+- [图像滤波](/blog/paper/image_processing)
+- [卷积](/blog/paper/convolution)
+- [激活函数](/blog/paper/activation)
+- [Batch Normalization](/blog/paper/batchnormalization)
+- [ResNet](/blog/paper/resnet)
+- [SE_Block](/blog/paper/se_block)
+- [MobileNetV1](/blog/paper/mobilenetv1)
+- [MobileNetV2](/blog/paper/mobilenetv2)
+- [MobileNetV3](/blog/paper/mobilenetv3)
+- [ShuffleNetV1](/blog/paper/shufflenetv1)
+- [ShuffleNetV2](/blog/paper/shufflenetv2)
+- [U-Net](/blog/paper/unet)
+- [U2Net](/blog/paper/u2net)
+- [MODNet](/blog/paper/modnet)
+- [RVM](/blog/paper/RVM)
+>>>>>>> 42df3a53aba605294de8344578df756c79a8b8b1
 
 **C++**
 
