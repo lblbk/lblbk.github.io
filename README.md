@@ -1,6 +1,4 @@
 <head><style type="text/css">h1:first-child {display:none;}</style>
-  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
-  <style type="text/css">mediumZoom('[data-zoomable]')</style>
 </head>
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
@@ -19,43 +17,44 @@
 >
 > **反正闲着也是闲着。**
 
-<br>
+**📡 导航**
 
+**[🔬 Index](/)** | **[🔎 Blog](https://lblbk.github.io/blog)** | **[📚 Dcos](https://lblbk.github.io/lblbk)**
 
-| 导航      |                                          |                                                   |
-| --------- | ---------------------------------------- | ------------------------------------------------- |
-| [主页](/) | **[Blog](https://lblbk.github.io/blog)** | **[Docs](https://lblbk.github.io/lblbk)** |
+**简介**
 
-
-### 简介
 - 一枚程序猿 🐵
 - 手机电脑数码爱好者 ​💻​
 - 旅行 🚆
 - 梦想成为攻城狮 🍋
 - balabala... 📓
 
-### 技能
+**技能**
 
 - 💻python
 - 🛠pytorch, tensorflow
 - ⌨cv, cnn
 - 📚balabala...
 
-### 经历
+**经历**
 
 - 人脸关键点检测 pfld算法
 - 图像抠图
 - 双边网格(Bilateral Grid)
 - SNPE 手机端部署
 
-### 文档
+**文档**
 
 - [Blog 理论基础知识](https://lblbk.github.io/blog)
 - [Docs 算法代码实现](https://lblbk.github.io/lblbk)
 
-### 碎碎念
+**碎碎念**
 
-**更新日常生活🛺**
+> 更新日常生活🛺
+
+*2021.10.20*
+
+回归板寸，明天终于要考科二了
 
 *2021.08.12*
 
