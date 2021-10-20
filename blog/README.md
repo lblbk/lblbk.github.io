@@ -50,7 +50,7 @@
 
 ***
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%"  mediumZoom('[data-zoomable]')>
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 

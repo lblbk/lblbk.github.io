@@ -1,4 +1,7 @@
-<head><style type="text/css">h1:first-child {display:none;}</style></head>
+<head><style type="text/css">h1:first-child {display:none;}</style>
+  <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+  <style type="text/css">mediumZoom('[data-zoomable]')</style>
+</head>
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
