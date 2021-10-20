@@ -6,10 +6,6 @@
 | --------- | ---------------------------------------- | ----------------------------------------- |
 | [主页](/) | **[Blog](https://lblbk.github.io/blog)** | **[Docs](https://lblbk.github.io/lblbk)** |
 
-**martin**
-
-- [日常碎碎念](/blog/martin)
-
 **Paper**
 
 - Base
