@@ -4,7 +4,7 @@
 
 **📡 导航**
 
-**[🔬 Index](/)** \| **[🔎 Blog](https://lblbk.github.io/blog)**\ | **[📚 Dcos](https://lblbk.github.io/lblbk)**
+**[🔬 Index](/)** \| **[🔎 Blog](https://lblbk.github.io/blog)** \| **[📚 Dcos](https://lblbk.github.io/lblbk)**
 
 **Paper**
 
