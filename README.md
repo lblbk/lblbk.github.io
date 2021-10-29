@@ -19,7 +19,7 @@
 
 **📡 导航**
 
-**[🔬 Index](/)** | **[🔎 Blog](https://lblbk.github.io/blog)** | **[📚 Dcos](https://lblbk.github.io/lblbk)**
+**[🔬 Index](/)** \| **[🔎 Blog](https://lblbk.github.io/blog)** \| **[📚 Dcos](https://lblbk.github.io/lblbk)**
 
 **简介**
 
@@ -52,9 +52,13 @@
 
 > 更新日常生活🛺
 
+*2021.10.26*
+
+一把过，天才
+
 *2021.10.20*
 
-回归板寸，明天终于要考科二了
+回归板寸，过几天终于要考科二了
 
 *2021.08.12*
 
