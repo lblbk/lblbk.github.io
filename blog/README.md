@@ -24,9 +24,11 @@
   - [SE_Block](/blog/paper/se_block)
   - [Transformer](#) 待完成
 - 语义分割
-  - [FCN](#) 待完成
+  - [FCN](/blog/paper/fcn) 待完成
   - [U-Net](/blog/paper/unet) 待完成
   - [U2Net](/blog/paper/u2net) 待完成
+- 目标检测
+  - [FPN](/blog/paper/fpn)
 - Matting
   - [MODNet](/blog/paper/modnet)
   - [RVM](/blog/paper/RVM)
