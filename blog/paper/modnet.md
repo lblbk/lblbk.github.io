@@ -75,7 +75,7 @@ $$
 
 #### OFD
 
-这是一种后处理方法，为了应对后期视频闪烁效果而提出的一种简单而有效的方法
+OFD策略是MODNet提出的针对video matting时可能会存在的'闪烁'现象，对于场景变化较慢的视频可以利用前后帧对应位置像素值的平均值作为'闪烁点'的新的像素取值，但是对于场景变化较快的视频，该策略可能会达到适得其反的作用。
 
 <img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/modnetofd.png" style="zoom:67%;" />
 
