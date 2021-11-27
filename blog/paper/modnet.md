@@ -33,7 +33,7 @@
 - 人像整体部分为语义部分, 定义为 S(semantic) 分支，即人像整体部分，这部分语义分割方法就能达到不错的效果，所以相对简单, 为了速度这部分用 `32*32` 去预测，造成了整体效果并不好
 - F(fusion) 部分，将上述两部分融合，实现最终的预测效果，用了一个比较特殊的损失函数
 
-<img src="https://cdn.nlark.com/yuque/0/2021/png/1622145/1618388442455-4a5d7466-154d-404e-acac-c2644b6d0a5b.png" alt="img" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/modnet_net.png" style="zoom:80%;" />
 
 #### 损失函数
 
