@@ -91,7 +91,9 @@ PointRend [19] 已经探索了基于补丁的细化用于分割和 BGMv2 [22] �
 
 #### Feature-Extraction Encoder
 
-MobileNetV3做为主干，使用 1/2 1/4 1/8 1/16 的特征，后面跟一个LR-ASPP
+MobileNetV3做为主干，Noticeably, the last block of MobileNetV3 uses dilated convolutions without downsampling stride
+
+使用 1/2 1/4 1/8 1/16 的特征，后面跟一个LR-ASPP
 
 ##### LR-ASPP
 
@@ -105,7 +107,7 @@ MobileNetV3做为主干，使用 1/2 1/4 1/8 1/16 的特征，后面跟一个LR-
 
 ##### Bottleneck block
 
-在1/16的比例下，encoder 后接这个模块，论文中说 “ConvGRU 层通过拆分和连接仅在一半的通道上操作。这显着减少了参数和计算量，因为 ConvGRU 在计算上是可扩展的。”，比对源码理解一下，之所以这样做在最后由说明原因，“我们发现通过拆分和串联在一半的通道上应用 ConvGRU 有效且高效。这种设计有助于 ConvGRU 专注于聚合时间信息，而另一个拆分分支则转发特定于当前帧的空间特征。所有卷积都使用 3×3 核，除了最后一个投影使用 1×1 核。”
+在1/16的比例下，encoder 的 lraspp 后接这个模块，这里是直接对 1/16 比例进行处理，所以直接加 ConvGRU 和 Bilinear . 具体操作在下面代码中列出来
 
 ```python
 class BottleneckBlock(nn.Module):
@@ -123,13 +125,19 @@ class BottleneckBlock(nn.Module):
 
 ##### Upsampling block
 
-首先，它将来自前一个块的双线性上采样输出、来自编码器的相应尺度的特征图和通过重复的 2×2 平均池化下采样的输入图像连接起来。然后，应用卷积，然后是批量归一化 [16] 和 ReLU [26] 激活，以执行特征合并和通道缩减。最后，通过拆分和串联将 ConvGRU 应用于一半的通道。
+Conv+BN+ReLU 的组合，输入是经过 cat 的上一级下采样以及下一级双线性上采样。
 
-还是 Conv+BN+ReLU 的组合，输入是经过concatenates的上一级下采样以及下一级双线性上采样，后面在跟一个 ConvGRU层，添加在1/8 1/4 1/2 的特征图中
+后面在跟一个 ConvGRU层，这里处理是 applying ConvGRU on half of the channels by split and concatenation effective and efficient，作者解释为 这种设计有助于 ConvGRU 专注于聚合时间信息，而另一个拆分分支则转发特定于当前帧的空间特征
+
+这个模块分别添加在1/8 1/4 1/2 的特征图中
 
 ##### Output block
 
-输出结果部分，这个部分使用常见组合输出，作者描述ConvGRU如果添加在这个部分代价会很昂贵并不会产生特别大的效果
+we find it expansive and not impactful at this scale. 我所理解这句话就是输出部分在这种规模下采用 ConvGRU 会付出昂贵的代价，并且效果还不尽如意。所以这里采用常见的 Conv+BN+RELU 操作
+
+it can be given T frames at once as input and each layer processes all T frames before passing to the next layer. 
+
+这里补充代码理解上述话
 
 #### Deep Guided Filter Module
 
