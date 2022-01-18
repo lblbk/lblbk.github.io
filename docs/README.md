@@ -10,49 +10,49 @@
 
 - Pytorch
   
-  - [autograd](/docs/dl/pytorch/autograd.md)
-  - [conv2d参数](/dl/pytorch/convolution.md)
-  - [pytorch 常用函数](/dl/pytorch/pytorch_function.md)
-  - [pytorch权重初始化](/dl/pytorch/torch_init.md)
+  - [autograd](/docs/dl/pytorch/autograd)
+  - [conv2d参数](/docs/dl/pytorch/convolution)
+  - [pytorch 常用函数](/docs/dl/pytorch/pytorch_function)
+  - [pytorch权重初始化](/docs/dl/pytorch/torch_init)
   - [pytorch tensor](#)
-  - [pytorch modules](/dl/pytorch/pytorch_modules.md)
-  - [pytorch学习率调整](/dl/pytorch/lr_scheduler.md)
-  - [pytorch优化器](/dl/pytorch/optimizer.md)
-  - [pytorch tensorboard](/dl/pytorch/pytorch_tensorboard.md)
-  - [训练流程](/dl/pytorch/train.md)
-  - [并行训练](/dl/pytorch/parallelism.md)
-  - [模型问题](/dl/pytorch/train_model.md)
-  - [保存模型](/dl/pytorch/save.md)
-  - [训练提速技巧](/dl/pytorch/train_trick.md)
-  - [常用指标](/dl/od/evaluation.md)
+  - [pytorch modules](/docs/dl/pytorch/pytorch_modules)
+  - [pytorch学习率调整](/docs/dl/pytorch/lr_scheduler)
+  - [pytorch优化器](/docs/dl/pytorch/optimizer)
+  - [pytorch tensorboard](/docs/dl/pytorch/pytorch_tensorboard)
+  - [训练流程](/docs/dl/pytorch/train)
+  - [并行训练](/docs/dl/pytorch/parallelism)
+  - [模型问题](/docs/dl/pytorch/train_model)
+  - [保存模型](/docs/dl/pytorch/save)
+  - [训练提速技巧](/docs/dl/pytorch/train_trick)
+  - [常用指标](/docs/dl/od/evaluation)
 
 - Tensorflow
   
-  - [tensorflow](/dl/tensorflow/tensorflow.md)
+  - [tensorflow](/docs/dl/tensorflow/tensorflow)
 
 **💻Coding**
 
 - python
   
-  - [数据类型](/coding/python/data_structures.md)
-  - [常见函数](/coding/python/function.md)
-  - [Python Class](/coding/python/class.md)
-  - [tqdm进度条](/coding/python/tqdm.md)
-  - [numpy](/coding/python/numpy.md)
-  - [闭包](/coding/python/closure.md)
-  - [装饰器](/coding/python/decorator.md)
+  - [数据类型](/docs/coding/python/data_structures)
+  - [常见函数](/docs/coding/python/function)
+  - [Python Class](/docs/coding/python/class)
+  - [tqdm进度条](/docs/coding/python/tqdm)
+  - [numpy](/docs/coding/python/numpy)
+  - [闭包](/docs/coding/python/closure)
+  - [装饰器](/docs/coding/python/decorator)
 
 - c++
   
-  - [编译器](/coding/cpp/compiler.md)
-  - [基础](/coding/cpp/base.md)
-  - [cmake](/coding/cpp/cmake.md)
+  - [编译器](/docs/coding/cpp/compiler)
+  - [基础](/docs/coding/cpp/base)
+  - [cmake](/docs/coding/cpp/cmake)
 
 - leetcode
   
-  - [Leetcode](/coding/leetcode/guide.md)
-  - [剑指Offer](/coding/leetcode/jz_offer.md)
-  - [leetcode](/coding/leetcode/leetcode.md)
+  - [Leetcode](/docs/coding/leetcode/guide)
+  - [剑指Offer](/docs/coding/leetcode/jz_offer)
+  - [leetcode](/docs/coding/leetcode/leetcode)
 
 ***
 
