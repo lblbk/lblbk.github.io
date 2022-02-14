@@ -31,9 +31,9 @@
 
 **技能**
 
-- 💻python
-- 🛠pytorch, tensorflow
-- ⌨cv, cnn
+- 💻Python、C++
+- 🛠Pytorch、Tensorflow、Caffe、NCNN
+- ⌨️CV、CNN
 - 📚balabala...
 
 **经历**
@@ -76,9 +76,17 @@
 
 事实证明想的好没啥用，最终还是发现只能更新下markdown写的博客了，现在是极简风格能满足我了，什么主题都没用，回归博客本来的模样
 
-分享下昨天回来拍的一张照片
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);zoom: 8%;" 
+    src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">分享下昨天回来拍的一张照片</div>
+</center>
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg" style="zoom: 10%;"  >
 
 *2021.05.17*
 
@@ -102,6 +110,6 @@ docsify简直是我这种懒人的福音，笔记部分放到语雀，部分典�
 
 ***
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*

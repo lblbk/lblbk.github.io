@@ -4,7 +4,7 @@
 
 **📡 导航**
 
-**[🔬 Index](/)** \| **[🔎 Blog](https://lblbk.github.io/blog)** \| **[📚 Dcos](https://lblbk.github.io/lblbk)**
+**[🔬 Index](/)** \| **[🔎 Blog](/blog)** \| **[📚 Dcos](/docs)**
 
 **🪐深度学习**
 
@@ -50,13 +50,13 @@
 
 - leetcode
   
-  - [Leetcode](/docs/coding/leetcode/guide)
+  - [🧭刷题导航](/docs/coding/leetcode/guide)
   - [剑指Offer](/docs/coding/leetcode/jz_offer)
   - [leetcode](/docs/coding/leetcode/leetcode)
 
 ***
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" width="50%" height="50%" >
+<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
