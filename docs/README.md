@@ -41,18 +41,14 @@
   - [numpy](/docs/coding/python/numpy)
   - [闭包](/docs/coding/python/closure)
   - [装饰器](/docs/coding/python/decorator)
-
 - c++
   
   - [编译器](/docs/coding/cpp/compiler)
   - [基础](/docs/coding/cpp/base)
   - [cmake](/docs/coding/cpp/cmake)
-
 - leetcode
   
   - [🧭刷题导航](/docs/coding/leetcode/guide)
-  - [剑指Offer](/docs/coding/leetcode/jz_offer)
-  - [leetcode](/docs/coding/leetcode/leetcode)
 
 ***
 
