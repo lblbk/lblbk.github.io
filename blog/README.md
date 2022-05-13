@@ -46,11 +46,26 @@
   - [MODNet](/blog/paper/modnet)
   - [RVM](/blog/paper/RVM)
 
-**C++**
+**PL**
 
-- [编译器](/blog/cpp/compiler)
+> 记录📝编程语言
 
-**Linux**
+- C++
+  - [编译器](/blog/cpp/compiler)
+- Python
+
+**Algorithm**
+
+> 某些算法的实现，dl cv方向🧭
+
+- 卷积
+  - 朴素卷积
+  - im2col
+  - [winograd 近期会更新这一篇](/blog/algorithm/conv/winograd)
+
+**Library**
+
+> 这里记录常用框架或者库，重点的可能会单独列出
 
 - [linux](/blog/linux/linux)
 - [caffe](/blog/linux/caffe)
