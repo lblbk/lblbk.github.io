@@ -1,7 +1,6 @@
-<head><style type="text/css">h1:first-child {display:none;}</style>
-</head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
+<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
 # **Martin**
 
@@ -52,9 +51,15 @@
 
 > 更新日常生活🛺
 
+*2022.05.31*
+
+无论何时何地，我永远都怀着一颗热枕折腾的心，遇到喜欢的女生我敢于尝试，面对工作我不断提升逆境成长，有时候还挺佩服自己这么爱折腾的
+
+顺便吐槽一句，jsdelivr的加速cdn也被污染，我真是醉了，目前改为`https://fastly.jsdelivr.net`可用
+
 *2022.04.16*
 
-我最近喜欢，不，我觉得可以用快要爱上一个女生了，即便我们认识了快半年了，因为种种原因我们现在不常联系，可我每次发完消息后，感觉耳朵都产生了幻觉，因为我一直觉得是她回我消息了，我把手机铃声开到最大，即便晚上睡觉也不例外，可是我始终得不到她的回信
+我最近认识了一个女生，即便我们认识了快半年了，因为种种原因我们现在不常联系，可我每次发完消息后，感觉耳朵都产生了幻觉，因为我一直觉得是她回我消息了，我把手机铃声开到最大，即便晚上睡觉也不例外，可是我始终得不到她的回信
 
 *2022.02.12*
 
@@ -83,13 +88,14 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);zoom: 8%;" 
-    src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg">
+    src="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
     padding: 2px;">分享下昨天回来拍的一张照片</div>
 </center>
+
 
 
 *2021.05.17*
@@ -114,6 +120,6 @@ docsify简直是我这种懒人的福音，笔记部分放到语雀，部分典�
 
 ***
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
+<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
