@@ -2,7 +2,7 @@
 
 <img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
-# **Martin**
+## **Martin**
 
 *Stay gold, pony boy.*
 
@@ -16,40 +16,42 @@
 > 
 > **反正闲着也是闲着。**
 
-**📡 导航**
+### 📡 导航
 
 **[🔬 Index](/)** \| **[🔎 Blog](/blog)** \| **[📚 Dcos](/docs)**
 
-**简介**
+### 关于我
 
 - 一枚程序猿 🐵
 - 手机电脑数码爱好者 ​💻​
 - 旅行 🚆
-- 梦想成为攻城狮 🍋
-- balabala... 📓
+- 读书 📓
+- 阿巴阿巴 🍋
 
-**技能**
+### 技术栈
 
-- 💻Python、C++
-- 🛠Pytorch、Tensorflow、Caffe、NCNN
-- ⌨️CV、CNN
-- 📚balabala...
+这里先简单更新下自己用到过或已经熟练掌握的技术，后续更新详情
 
-**经历**
+|          | 基础                                                         | 进阶 | 高阶 |
+| :------: | ------------------------------------------------------------ | ---- | ---- |
+| 深度学习 | 基础网络 ResNet MobileNet系列 ShuffleNet<br />目标检测 YOLO Faster-RCNN <br />Image Matting MODNet RVM |      |      |
+| 训练框架 | tensorflow <br />pytorch                                     |      |      |
+| 移植部署 | 转换 onnx <br />量化 <br />剪枝 <br />蒸馏                   |      |      |
+| 推理框架 | NCNN <br />caffe <br />SNPE <br />tensorrt <br />MNN         |      |      |
+| 编程语言 | python <br/>c++ <br />golang                                 |      |      |
+|  开源库  | opencv                                                       |      |      |
+| 日常工具 | git <br />docker <br />vscode                                |      |      |
+| 项目经历 | 人脸关键点检测 <br >pfld算法 <br />图像抠图 <br />双边网格(Bilateral Grid) 插值上采样算法，可大大减少计算量<br />SNPE 手机端部署 |      |      |
 
-- 人脸关键点检测 pfld算法
-- 图像抠图
-- 双边网格(Bilateral Grid)
-- SNPE 手机端部署
-
-**文档**
-
-- [Blog 理论基础知识](https://lblbk.github.io/blog)
-- [Docs 算法代码实现](https://lblbk.github.io/lblbk)
-
-**碎碎念**
+### 碎碎念
 
 > 更新日常生活🛺
+
+*2022.06.26*
+
+今年是很难过的一年啊，工作不好找，活的都不容易，本来打算换工作的念头一直被搁置，凑个三年经验等明年初准备跳大厂吧，我是不会停息的，我要永远折腾下去，上次出去玩拍摄了一只vlog，以后会拍更多的更好玩的vlog
+
+<iframe src="//player.bilibili.com/player.html?aid=726871961&bvid=BV1BS4y1z7nd&cid=727070964&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 *2022.05.31*
 
@@ -95,8 +97,6 @@
     color: #999;
     padding: 2px;">分享下昨天回来拍的一张照片</div>
 </center>
-
-
 
 *2021.05.17*
 
