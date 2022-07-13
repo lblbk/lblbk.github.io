@@ -56,12 +56,14 @@
 
 **Algorithm**
 
-> 某些算法的实现，dl cv方向🧭
+> 某些算法的实现
 
-- 卷积
-  - 朴素卷积
-  - im2col
-  - [winograd 近期会更新这一篇](/blog/algorithm/conv/winograd)
+**CV**
+
+> 计算机视觉算法实现
+
+- op 深度学习算子
+  - [卷积实现](/blog/cv/op/conv/)
 
 **Library**
 
