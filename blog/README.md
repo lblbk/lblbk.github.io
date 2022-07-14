@@ -52,6 +52,7 @@
 
 - C++
   - [编译器](/blog/cpp/compiler)
+  - [内存表示](/blog/cpp/mem)
 - Python
 
 **Algorithm**
