@@ -4,7 +4,7 @@
 
 **📡 导航**
 
-**[🔬 Index](/)** \| **[🔎 Blog](/blog)** \| **[📚 Dcos](/lblbk)**
+**[🔬 Index](/)** \| **[🔎 Blog](/blog)** \| **[📚 lblbk](/lblbk)**
 
 **Paper**
 
@@ -51,13 +51,62 @@
 > 记录📝编程语言
 
 - C++
-  - [编译器](/blog/cpp/compiler)
-  - [内存表示](/blog/cpp/mem)
-- Python
+  - [编译器](/blog/pl/cpp/compiler)
+  - [cmake](/blog/pl/cpp/cmake)
+  - [内存表示](/blog/pl/cpp/mem)
+  
+- python
+  - [数据类型](/blog/pl/python/data_structures)
+  - [常见函数](/blog/pl/python/function)
+  - [Python Class](/blog/pl/python/class)
+  - [闭包](/blog/pl/python/closure)
+  - [装饰器](/blog/pl/python/decorator)
+
+- Library🔧 各种语言写的软件函数开源库
+  - [tqdm进度条](/blog/pl/library/tqdm)
+  - [numpy](/blog/pl/library/numpy)
+  - [openCV](/blog/pl/library/opencv)
+
+**OS**
+
+> 操作系统知识，主要记录linux相关
+
+- Linux
+  - [linux安装软件](/blog/os/linux/linux_install)
+- macOS
+- Android
 
 **Algorithm**
 
-> 某些算法的实现
+- leetcode
+  - [🧭刷题导航](/blog/coding/leetcode/guide)
+
+**Train & Inference**
+
+- Pytorch
+
+  - [autograd](/blog/dl/pytorch/autograd)
+  - [conv2d参数](/blog/dl/pytorch/convolution)
+  - [pytorch 常用函数](/blog/dl/pytorch/pytorch_function)
+  - [pytorch权重初始化](/blog/dl/pytorch/torch_init)
+  - [pytorch tensor](#)
+  - [pytorch modules](/blog/dl/pytorch/pytorch_modules)
+  - [pytorch学习率调整](/blog/dl/pytorch/lr_scheduler)
+  - [pytorch优化器](/blog/dl/pytorch/optimizer)
+  - [pytorch tensorboard](/blog/dl/pytorch/pytorch_tensorboard)
+  - [训练流程](/blog/dl/pytorch/train)
+  - [并行训练](/blog/dl/pytorch/parallelism)
+  - [模型问题](/blog/dl/pytorch/train_model)
+  - [保存模型](/blog/dl/pytorch/save)
+  - [训练提速技巧](/blog/dl/pytorch/train_trick)
+  - [常用指标](/blog/dl/pytorch/evaluation)
+
+- Tensorflow
+
+  - [tensorflow](/blog/dl/tensorflow/tensorflow)
+
+- Caffe
+  - [caffe安装](/blog/dl/caffe/install)
 
 **CV**
 
@@ -65,14 +114,6 @@
 
 - op 深度学习算子
   - [卷积实现](/blog/cv/op/conv/)
-
-**Library**
-
-> 这里记录常用框架或者库，重点的可能会单独列出
-
-- [linux](/blog/linux/linux)
-- [caffe](/blog/linux/caffe)
-- [openCV](/blog/linux/opencv)
 
 **Tools**
 
