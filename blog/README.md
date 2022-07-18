@@ -8,6 +8,8 @@
 
 **Paper**
 
+> 各个领域论文读后笔记📒
+
 - Base
   
   - [图像滤波](/blog/paper/image_processing)
@@ -62,60 +64,71 @@
   - [闭包](/blog/pl/python/closure)
   - [装饰器](/blog/pl/python/decorator)
 
-- Library🔧 各种语言写的软件函数开源库
+- Library🔧
+  
+  > c++ 软件函数开源库, python常用pip包，以及也许其他语言...
+  
   - [tqdm进度条](/blog/pl/library/tqdm)
   - [numpy](/blog/pl/library/numpy)
   - [openCV](/blog/pl/library/opencv)
 
+- Algorithm
+
+	> 算法，程序员必备技能！走遍大厂都不怕！
+
+	- leetcode
+  	- [🧭刷题导航](/blog/pl/algorithm/guide)
+
+**Train & Inference**
+
+> 训练框架，主流PyTorch tensorflow一些使用方法和技巧
+>
+> 推理部署框架，caffe ncnn snpe等
+
+- Pytorch
+
+  - [autograd](/blog/mlframework/pytorch/autograd)
+  - [conv2d参数](/blog/mlframework/pytorch/convolution)
+  - [pytorch 常用函数](/blog/mlframework/pytorch/pytorch_function)
+  - [pytorch权重初始化](/blog/mlframework/pytorch/torch_init)
+  - [pytorch tensor](#)
+  - [pytorch modules](/blog/mlframework/pytorch/pytorch_modules)
+  - [pytorch学习率调整](/blog/mlframework/pytorch/lr_scheduler)
+  - [pytorch优化器](/blog/mlframework/pytorch/optimizer)
+  - [pytorch tensorboard](/blog/mlframework/pytorch/pytorch_tensorboard)
+  - [训练流程](/blog/mlframework/pytorch/train)
+  - [并行训练](/blog/mlframework/pytorch/parallelism)
+  - [模型问题](/blog/mlframework/pytorch/train_model)
+  - [保存模型](/blog/mlframework/pytorch/save)
+  - [训练提速技巧](/blog/mlframework/pytorch/train_trick)
+  - [常用指标](/blog/mlframework/pytorch/evaluation)
+
+- Tensorflow
+
+  - [tensorflow](/blog/mlframework/tensorflow/tensorflow)
+
+- Caffe
+  - [caffe安装](/blog/mlframework/caffe/install)
+
 **OS**
 
-> 操作系统知识，主要记录linux相关
+> 组原、操作系统, 考研必备技能...🙋
 
 - Linux
   - [linux安装软件](/blog/os/linux/linux_install)
 - macOS
 - Android
 
-**Algorithm**
+**DL Deploy**
 
-- leetcode
-  - [🧭刷题导航](/blog/coding/leetcode/guide)
-
-**Train & Inference**
-
-- Pytorch
-
-  - [autograd](/blog/dl/pytorch/autograd)
-  - [conv2d参数](/blog/dl/pytorch/convolution)
-  - [pytorch 常用函数](/blog/dl/pytorch/pytorch_function)
-  - [pytorch权重初始化](/blog/dl/pytorch/torch_init)
-  - [pytorch tensor](#)
-  - [pytorch modules](/blog/dl/pytorch/pytorch_modules)
-  - [pytorch学习率调整](/blog/dl/pytorch/lr_scheduler)
-  - [pytorch优化器](/blog/dl/pytorch/optimizer)
-  - [pytorch tensorboard](/blog/dl/pytorch/pytorch_tensorboard)
-  - [训练流程](/blog/dl/pytorch/train)
-  - [并行训练](/blog/dl/pytorch/parallelism)
-  - [模型问题](/blog/dl/pytorch/train_model)
-  - [保存模型](/blog/dl/pytorch/save)
-  - [训练提速技巧](/blog/dl/pytorch/train_trick)
-  - [常用指标](/blog/dl/pytorch/evaluation)
-
-- Tensorflow
-
-  - [tensorflow](/blog/dl/tensorflow/tensorflow)
-
-- Caffe
-  - [caffe安装](/blog/dl/caffe/install)
-
-**CV**
-
-> 计算机视觉算法实现
+> 深度学习工业知识，比如落地优化，模型部署，算子加速
 
 - op 深度学习算子
-  - [卷积实现](/blog/cv/op/conv/)
+  - [卷积实现](/blog/dldeploy/op/conv)
 
 **Tools**
+
+> 工作中常用效率提升的小工具🛠
 
 - [git](/blog/tools/git)
 - [latex](/blog/tools/latex)

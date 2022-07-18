@@ -52,11 +52,8 @@
 今年是很难过的一年啊，工作不好找，活的都不容易，本来打算换工作的念头一直被搁置，凑个三年经验等明年初准备跳大厂吧，我是不会停息的，我要永远折腾下去，上次出去玩拍摄了一只vlog，以后会拍更多的更好玩的vlog
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 80%; height: 80%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=726871961&bvid=BV1BS4y1z7nd&cid=727070964&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=726871961&bvid=BV1BS4y1z7nd&cid=727070964&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
-
-
-
 
 *2022.05.31*
 

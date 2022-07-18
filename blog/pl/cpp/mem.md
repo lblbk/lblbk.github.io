@@ -48,7 +48,7 @@ for (int i=0; i<4; i++) {
 >    ```cc
 >    void memory_dump(void *ptr, int len) {
 >      int i;
->                         
+>                            
 >      for (i = 0; i < len; i++) {
 >        if (i % 8 == 0 && i != 0)
 >          printf(" ");
