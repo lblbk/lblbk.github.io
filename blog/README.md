@@ -112,19 +112,29 @@
 
 **OS**
 
-> 组原、操作系统, 考研必备技能...🙋
+> 操作系统, 考研必备技能...🙋
 
 - Linux
   - [linux安装软件](/blog/os/linux/linux_install)
 - macOS
 - Android
 
-**DL Deploy**
+**组原**
+
+> 组原，它还是回来了，没办法，部署性能优化还是要和硬件打交道
+
+**DL Deploy 部署**
 
 > 深度学习工业知识，比如落地优化，模型部署，算子加速
 
 - op 深度学习算子
   - [卷积实现](/blog/dldeploy/op/conv)
+
+**CV**
+
+> 这个方向肯定是要用的，就比如最新的这篇文章
+
+- [yuv论述](/blog/cv/yuv)
 
 **Tools**
 
