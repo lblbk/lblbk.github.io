@@ -32,16 +32,16 @@
 
 这里先简单更新下自己用到过或已经熟练掌握的技术，后续更新详情
 
-|          | 基础                                                         | 进阶 | 高阶 |
-| :------: | ------------------------------------------------------------ | ---- | ---- |
-| 深度学习 | 基础网络 ResNet MobileNet系列 ShuffleNet<br />目标检测 YOLO Faster-RCNN <br />Image Matting MODNet RVM |      |      |
-| 训练框架 | tensorflow <br />pytorch                                     |      |      |
-| 移植部署 | 转换 onnx <br />量化 <br />剪枝 <br />蒸馏                   |      |      |
-| 推理框架 | NCNN <br />caffe <br />SNPE <br />tensorrt <br />MNN         |      |      |
-| 编程语言 | python <br/>c++ <br />golang                                 |      |      |
-|  开源库  | opencv                                                       |      |      |
-| 日常工具 | git <br />docker <br />vscode                                |      |      |
-| 项目经历 | 人脸关键点检测 <br >pfld算法 <br />图像抠图 <br />双边网格(Bilateral Grid) 插值上采样算法，可大大减少计算量<br />SNPE 手机端部署 |      |      |
+|          | 基础                                                         | 进阶          | 高阶 |
+| :------: | ------------------------------------------------------------ | ------------- | ---- |
+| 深度学习 | 基础网络 ResNet MobileNet ShuffleNet<br />目标检测 YOLO Faster-RCNN <br />Image Matting MODNet RVM |               |      |
+| 训练框架 | tensorflow <br />pytorch                                     |               |      |
+| 移植部署 | ONNX <br/>量化                                               |               |      |
+| 推理框架 | NCNN <br/>caffe <br/>SNPE <br/>tensorrt <br/>MNN             |               |      |
+| 编程语言 | python <br/>c++ <br/>golang                                  |               |      |
+|   API    | OpenGL<br/>OpenCL<br/>Vulkan                                 | *目前着重了解 |      |
+| 日常工具 | git <br/>docker <br/>vscode                                  |               |      |
+| 项目经历 | 人脸关键点检测 <br/>pfld算法 <br/>MODNet算法部署<br/>BGM算法 <br/>双边网格(Bilateral Grid) 算法<br/>RVM算法部署 |               |      |
 
 ### 碎碎念
 

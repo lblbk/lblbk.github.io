@@ -53,9 +53,9 @@
 > 记录📝编程语言
 
 - C++
-  - [编译器](/blog/pl/cpp/compiler)
+  - [编译器概述](/blog/pl/cpp/compiler)
   - [cmake](/blog/pl/cpp/cmake)
-  - [内存表示](/blog/pl/cpp/mem)
+  - [整形浮点型内存表示](/blog/pl/cpp/mem)
   
 - python
   - [数据类型](/blog/pl/python/data_structures)
