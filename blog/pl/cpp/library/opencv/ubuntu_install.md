@@ -32,21 +32,19 @@ sudo apt install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-d
 >
 > `python-dev` `python-numpy`包找不到，改成`python3-dev` `python3-numpy`
 >
-> 
->
 > 无法定位软件包libjasper-dev 的错误提示
 >
 > ```bash
-> sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+>sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
 > sudo apt update
 > sudo apt upgrade
 > sudo apt install libjasper1 libjasper-dev
 > ```
->
+> 
 > 这里可能加的源显示 `由于没有公钥，无法验证以下签名` ,是这执行以下命令 最后面那串是在命令中有提示的
 >
 > ```bash
-> sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 76F1A20FF987672F
+>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 76F1A20FF987672F
 > ```
 
 **下载源码**

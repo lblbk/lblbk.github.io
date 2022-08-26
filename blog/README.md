@@ -57,6 +57,11 @@
   - [cmake](/blog/pl/cpp/cmake)
   - [整形浮点型内存表示](/blog/pl/cpp/mem)
   
+  Library
+  
+  - OpenCV
+    - [ubuntu安装opencv](/blog/cpp/library/opencv/ubuntu_install)
+  
 - python
   - [数据类型](/blog/pl/python/data_structures)
   - [常见函数](/blog/pl/python/function)
@@ -64,14 +69,10 @@
   - [闭包](/blog/pl/python/closure)
   - [装饰器](/blog/pl/python/decorator)
 
-- Library🔧
+  Pip包
+  - [tqdm进度条](/blog/python/pip/tqdm)
+  - [numpy](/blog/python/pip/numpy)
   
-  > c++ 软件函数开源库, python常用pip包，以及也许其他语言...
-  
-  - [tqdm进度条](/blog/pl/library/tqdm)
-  - [numpy](/blog/pl/library/numpy)
-  - [openCV](/blog/pl/library/opencv)
-
 - Algorithm
 
 	> 算法，程序员必备技能！走遍大厂都不怕！
