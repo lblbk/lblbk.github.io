@@ -124,12 +124,12 @@
 
 > 组原，它还是回来了，没办法，部署性能优化还是要和硬件打交道
 
-**DL Deploy 部署**
+**Inference 部署**
 
 > 深度学习工业知识，比如落地优化，模型部署，算子加速
 
 - op 深度学习算子
-  - [卷积实现](/blog/dldeploy/op/conv)
+  - [卷积实现](/blog/inference/op/conv)
 
 **CV**
 

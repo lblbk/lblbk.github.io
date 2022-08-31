@@ -8,9 +8,9 @@
 
 ### 读书📖
 
-### 旅行✈️
+### 旅行 :airplane:
 
-### <span id="suisuinian">碎碎念</span>
+### <span id="memo">碎碎念</span>
 
 > 更新日常生活🛺
 
