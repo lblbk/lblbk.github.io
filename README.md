@@ -1,6 +1,6 @@
-<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="/res/cola.ico" type="image/x-icon" /></head>
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
 ## **Martin**
 
@@ -62,15 +62,9 @@
 
 青涩不及当初，聚散不由你我，别来无恙。
 
-### 音乐
-
-<div>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4h9wh7iOZ0GGn8QVp4RAOB?utm_source=generator" width="45%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VeQG3EL9CCttWSxbHnNX1?utm_source=generator" width="45%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-</div>
 
 ***
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*

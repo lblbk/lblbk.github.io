@@ -1,6 +1,6 @@
-<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
+<head><style type="text/css">h1:first-child {display:none;}</style></head>
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
 **📡 导航**
 
@@ -14,6 +14,19 @@
 
 > 更新日常生活🛺
 
+*2022.09.18*
+
+最近接触了一位很棒的女生，但她老说我年纪小，可是我长得老啊，对这位女生的好感越来越强了
+
+又被污染了，现在是 `gcore.jsdelivr.net` 头疼
+
+这博客好像越变越丰富多彩了，最近又学会了嵌入音乐，顺便推荐几首，这里是`spotify` 需要fq, 看不到就算了吧
+
+<div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VeQG3EL9CCttWSxbHnNX1?utm_source=generator" width="48%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VeQG3EL9CCttWSxbHnNX1?utm_source=generator" width="48%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
 *2022.08.03*
 
 最近想找个女朋友，也一直在接触一些女生，有些女生感觉完全不是一路人...
@@ -23,9 +36,8 @@
 今年是很难过的一年啊，工作不好找，活的都不容易，本来打算换工作的念头一直被搁置，凑个三年经验等明年初准备跳大厂吧，我是不会停息的，我要永远折腾下去，上次出去玩拍摄了一只vlog，以后会拍更多的更好玩的vlog
 
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=726871961&bvid=BV1BS4y1z7nd&cid=727070964&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="border-radius:12px; position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=726871961&bvid=BV1BS4y1z7nd&cid=727070964&page=1&as_wide=1&high_quality=1&danmaku=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
-
 *2022.05.31*
 
 无论何时何地，我永远都怀着一颗热枕折腾的心，遇到喜欢的女生我敢于尝试，面对工作我不断提升逆境成长，有时候还挺佩服自己这么爱折腾的
@@ -63,7 +75,7 @@
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);zoom: 8%;" 
-    src="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg">
+    src="https://gcore.jsdelivr.net/gh/lblbk/picgo/img/WeChat%20Image_20210710112233.jpg">
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
@@ -93,7 +105,7 @@ docsify简直是我这种懒人的福音，笔记部分放到语雀，部分典�
 
 ***
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg" style="zoom: 35%;" >
 
 *🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
