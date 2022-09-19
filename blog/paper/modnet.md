@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -21,7 +21,7 @@
 
 这篇论文也是和近期几篇扣像论文相同的思路，即采用多个分支分别对边缘和人像细节分别预测，同时为了视频效果更好也提出了两个策略用于优化, 整篇论文的处理流程是这样
 
-![](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/modnetstruct.png)
+![](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/modnetstruct.png)
 
 ### 思路
 
@@ -33,7 +33,7 @@
 - 人像整体部分为语义部分, 定义为 S(semantic) 分支，即人像整体部分，这部分语义分割方法就能达到不错的效果，所以相对简单, 为了速度这部分用 `32*32` 去预测，造成了整体效果并不好
 - F(fusion) 部分，将上述两部分融合，实现最终的预测效果，用了一个比较特殊的损失函数
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/modnet_net.png" style="zoom:80%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/modnet_net.png" style="zoom:80%;" />
 
 #### 损失函数
 
@@ -109,7 +109,7 @@ soc 可以视为微调方法，为了让模型更加适应真实世界，在一�
 
 OFD策略是MODNet提出的针对video matting时可能会存在的'闪烁'现象，对于场景变化较慢的视频可以利用前后帧对应位置像素值的平均值作为'闪烁点'的新的像素取值，但是对于场景变化较快的视频，该策略可能会达到适得其反的作用。
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/modnetofd.png" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/modnetofd.png" style="zoom:67%;" />
 
 理解起来也比较简单，中间一帧的相同位置像素值对前后两帧值取平均值
 

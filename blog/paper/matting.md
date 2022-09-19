@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script id="MathJax-script" async src="https://gcore.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -27,9 +27,9 @@
 
 正如标亮部分所说，扣像和图像分割最大的区别在于边缘部分的处理。举个简单的例子就是图像分割的值只有0和1，而扣像的值是0-1, 这里放出两张照片看一下。
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/matting_image.jpg" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/matting_image.jpg" style="zoom:50%;" />
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/matting_seg.png" style="zoom: 50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/matting_seg.png" style="zoom: 50%;" />
 
 ### 原理
 
@@ -39,7 +39,7 @@ $$
 
 扣像算法的本质都是来源于这个公式，alpha 代表透明度，F 和 B 分别代表前景和背景。
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/matting_3.png" style="zoom: 50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/matting_3.png" style="zoom: 50%;" />
 
 ## 分类
 

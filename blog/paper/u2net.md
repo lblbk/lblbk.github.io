@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -15,5 +15,5 @@
 
 > U2Net 一篇很意思的论文，并不是效果很好但实时性很差
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210808151739.png" style="zoom: 33%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210808151739.png" style="zoom: 33%;" />
 

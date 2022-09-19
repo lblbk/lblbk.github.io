@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -43,11 +43,11 @@ $$
 
 ### 量化操作
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/quantization-proc.jpg" style="zoom: 67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/quantization-proc.jpg" style="zoom: 67%;" />
 
 ### 对称量化与非对称量化
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/quantization-mapping.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/quantization-mapping.png" style="zoom:50%;" />
 
 ### 卷积量化
 

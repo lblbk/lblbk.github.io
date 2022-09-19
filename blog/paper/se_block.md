@@ -17,7 +17,7 @@
 **特征通道**
 **Squeeze-and-Excitation Networks**（简称**SENet**）。在我们提出的结构中，Squeeze和Excitation是两个非常关键的操作，所以我们以此来命名。我们的动机是希望显式地建模特征通道之间的相互依赖关系。另外，我们并不打算引入一个新的空间维度来进行特征通道间的融合，而是采用了一种全新的“特征重标定”策略。具体来说，就是通过学习的方式来自动获取到每个特征通道的重要程度，然后依照这个重要程度去提升有用的特征并抑制对当前任务用处不大的特征
 
-![image-20210106190713287](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210106190713.png)
+![image-20210106190713287](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106190713.png)
 
 > **Sequeeze** ：对各个 `feature map` 进行处理，由 `C*H*W`得到一个 `1*1*C` 的一维向量
 >
@@ -50,7 +50,7 @@ class SEBlock(nn.Module):
 ```
 
 **使用**
-![image-20210106191147233](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210106191147.png)
+![image-20210106191147233](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106191147.png)
 
 > 个人理解就是对个通道间的权重进行一次再分配，强调有效信息，抑制无效信息
 

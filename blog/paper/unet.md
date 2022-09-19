@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -23,5 +23,5 @@ Unet 的初衷是为了解决生物医学图像方面的问题，由于效果确
 
 #### 网络结构
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210808151732.png" alt="unet" style="zoom: 40%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210808151732.png" alt="unet" style="zoom: 40%;" />
 

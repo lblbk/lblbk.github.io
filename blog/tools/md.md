@@ -89,7 +89,7 @@ def func():
 
 示例：
 
-![1](https://cdn.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg)
+![1](https://gcore.jsdelivr.net/gh/lblbk/picgo/img/default1.jpg)
 
 ### 10. 删除线
 

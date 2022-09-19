@@ -6,7 +6,7 @@
 
 循环学习率和1Cycle学习率策略都是Leslie N. Smith提出的方法，然后由fast.ai推广。本质上，1Cycle学习率策略看起来像这样：
 
-![img](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210106182932.png)
+![img](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182932.png)
 
 Sylvain写道：
 

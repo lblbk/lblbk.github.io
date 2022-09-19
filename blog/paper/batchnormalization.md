@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -56,13 +56,13 @@ Google 将这一现象总结为 Internal Covariate Shift，简称 ICS. 什么是
 
 “对于一个拥有d维的输入x，我们将对它的每一个维度进行标准化处理。” 假设我们输入的x是RGB三通道的彩色图像，那么这里的d就是输入图像的channels即d=3，标准化处理也就是分别对我们的R通道，G通道，B通道进行处理。
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210517155502.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210517155502.png" style="zoom:50%;" />
 
 在Normalization完成后，Google的研究员仍对数值稳定性不放心，又加入了两个参数gamma和beta，即 $y^k=\gamma^k \hat{x}^k + \beta^k$, $\gamma$ 是再缩放参数，$\beta$ 是再平移参数，**为了保证模型的表达能力不因为规范化而下降**， 除了充分利用底层学习的能力，另一方面的重要意义在于保证获得非线性的表达能力。举个例子，在sigmoid激活函数的中间部分，函数近似于一个线性函数（如下图所示），使用BN后会使归一化后的数据仅使用这一段线性的部分，如果只用这一段，那网络就成了线性网络。
 
 参数的更新，原文也给了公式
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210517160128.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210517160128.png" style="zoom:50%;" />
 
 ### pytorch 的 BN 实现解析
 

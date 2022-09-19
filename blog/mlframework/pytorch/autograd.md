@@ -44,7 +44,7 @@ loss = mean(l4)
 
 这个例子比较简单，涉及的最复杂的操作是求平均，但是如果我们把其中的加法和乘法操作换成卷积，那么其实和神经网络类似。我们可以简单地画一下它的计算图：
 
-![正向计算](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210203142015.png)
+![正向计算](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210203142015.png)
 
 下面给出了对应的代码，我们定义了`input`，`w1`，`w2`，`w3` 这三个变量，其中 `input` 不需要求导结果。根据 PyTorch 默认的求导规则，对于 `l1` 来说，因为有一个输入需要求导（也就是 `w1` 需要），所以它自己默认也需要求导，即 `requires_grad=True`（如果对这个规则不熟悉，欢迎参考 [我上一篇博文的第一部分](https://zhuanlan.zhihu.com/p/67184419) 或者直接查看 [官方 Tutorial 相关部分](https://link.zhihu.com/?target=https%3A//pytorch.org/docs/stable/notes/autograd.html%23requires-grad)）。在整张计算图中，只有 `input` 一个变量是 `requires_grad=False` 的。正向传播过程的具体代码如下：
 
@@ -74,7 +74,7 @@ print(loss.data, loss.grad, loss.grad_fn)
 
 正向传播的结果基本符合我们的预期。我们可以看到，变量 `l1` 的 `grad_fn` 储存着乘法操作符 `<MulBackward0>`，用于在反向传播中指导导数的计算。而 `w1` 是用户自己定义的，不是通过计算得来的，所以其 `grad_fn` 为空；同时因为还没有进行反向传播，`grad` 的值也为空。接下来，我们看一下如果要继续进行反向传播，计算图应该是什么样子：
 
-![](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210203142033.png)
+![](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210203142033.png)
 
 反向图也比较简单，从 `loss` 这个变量开始，通过链式法则，依次计算出各部分的导数。说到这里，我们不妨先自己手动推导一下求导的结果，再与程序运行结果作对比。如果对这部分不感兴趣的读者，可以直接跳过。
 

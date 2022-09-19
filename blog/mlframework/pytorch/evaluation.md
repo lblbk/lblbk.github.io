@@ -54,11 +54,11 @@ disp.ax_.set_title('2-class Precision-Recall curve')
 plt.show()
 ```
 
-![image-20210120181158432](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210120181205.png)
+![image-20210120181158432](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210120181205.png)
 
 **ROC曲线**
 
-![image-20210120184751043](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210120184751.png)
+![image-20210120184751043](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210120184751.png)
 
 ### 混淆矩阵
 
@@ -88,7 +88,7 @@ plt.title('confusion_matrix')
 plt.show()
 ```
 
-![confusion_matrix](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210118170351.jpeg)
+![confusion_matrix](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210118170351.jpeg)
 
 ***
 

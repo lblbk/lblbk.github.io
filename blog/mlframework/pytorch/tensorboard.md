@@ -58,7 +58,7 @@ tensorboard --logdir=runs/name --port=6007
 tensorboard --logdir=runs/name --bind_all
 ```
 
-![image-20210107175232368](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210107175232.png)
+![image-20210107175232368](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210107175232.png)
 
 - **图片添加**：代码引自引用2
 
@@ -67,7 +67,7 @@ tensorboard --logdir=runs/name --bind_all
 writer.add_image('four_fashion_mnist_images', img_grid)
 ```
 
-![](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210107181204.png)
+![](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210107181204.png)
 
 - **模型添加**：代码引用2
 
@@ -76,7 +76,7 @@ writer.add_image('four_fashion_mnist_images', img_grid)
 writer.add_graph(net, images)
 ```
 
-![image-20210107181627789](https://cdn.jsdelivr.net/gh/lblbk/picgo/work/20210107181627.png)
+![image-20210107181627789](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210107181627.png)
 
 > 对于其他用法官网文档解释的很清晰
 

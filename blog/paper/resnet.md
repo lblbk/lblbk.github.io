@@ -1,6 +1,6 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
+	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -33,21 +33,21 @@
 
 网络深度增加时，网络准确度出现饱和，甚至出现下降。这个现象可以在下图中直观看出来：56层的网络比20层网络效果还要差。这不会是过拟合问题，因为56层网络的训练误差同样高。我们知道深层网络存在着梯度消失或者爆炸的问题，这使得深度学习模型很难训练。但是现在已经存在一些技术手段如BatchNorm来缓解这个问题。因此，出现深度网络的退化问题是非常令人诧异的。
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/resnet_fig1.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/resnet_fig1.png" style="zoom:50%;" />
 
 ## 2 残差
 
 
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/resnet_residual.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/resnet_residual.png" style="zoom:50%;" />
 
 ## 3 网络结构
 
 
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/resnet_arch.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/resnet_arch.png" style="zoom:50%;" />
 
 其他层数的完整参数可以参考下图
 
-<img src="https://cdn.jsdelivr.net/gh/lblbk/picgo/work/resnet_params.png" style="zoom:50%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/resnet_params.png" style="zoom:50%;" />
 
