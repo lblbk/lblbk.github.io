@@ -1,4 +1,4 @@
-<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
 
 # Git使用
 

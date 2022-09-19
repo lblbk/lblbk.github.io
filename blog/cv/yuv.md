@@ -1,4 +1,4 @@
-<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
 
 # YUV颜色编码论述
 
@@ -53,13 +53,13 @@ YUV 图像的主流采样方式有如下三种：
 
 这里先放一张他们三种的区别
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv.jpeg" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv.jpeg" style="zoom:67%;" />
 
 #### YUV 4:4:4
 
 YUV 4:4:4 表示 Y、U、V 三分量采样率相同，即每个像素的三分量信息完整，都是 8bit，每个像素占用 3 个字节
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv444.jpeg" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv444.jpeg" style="zoom:67%;" />
 
 ```bash
 四个像素为： [Y0 U0 V0] [Y1 U1 V1] [Y2 U2 V2] [Y3 U3 V3]
@@ -71,7 +71,7 @@ YUV 4:4:4 表示 Y、U、V 三分量采样率相同，即每个像素的三分�
 
 YUV 4:2:2 表示 UV 分量的采样率是 Y 分量的一半
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv422.jpeg" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv422.jpeg" style="zoom:67%;" />
 
 ```bash
 四个像素为： [Y0 U0 V0] [Y1 U1 V1] [Y2 U2 V2] [Y3 U3 V3]
@@ -87,7 +87,7 @@ YUV 4:2:2 表示 UV 分量的采样率是 Y 分量的一半
 
 YUV 4:2:0 指的是对每条扫描线来说，只有一种色度分量以 2:1 的采样率存储，相邻的扫描行存储不同的色度分量。也就是说，如果第一行是 4:2:0，下一行就是 4:0:2，在下一行就是 4:2:0，以此类推
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420.jpeg" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420.jpeg" style="zoom:67%;" />
 
 ```bash
 图像像素为：
@@ -138,11 +138,11 @@ YUV422P 属于 YUV422 的一种，它是一种 planer 模式，即 Y、U、V 分
 
 YUV420P 是基于 planar 平面模式进行存储，先存储所有的 Y 分量，然后存储所有的 U 分量或者 V 分量
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420p.png" style="zoom:75%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420p.png" style="zoom:75%;" />
 
 同样，YUV420SP 也是基于 planar 平面模式存储，与 YUV420P 的区别在于它的 U、V 分量是按照 UV 或者 VU 交替顺序进行存储
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420sp.png" style="zoom:75%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cv-yuv-yuv420sp.png" style="zoom:75%;" />
 
 #### YU12 YU21
 
