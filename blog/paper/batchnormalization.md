@@ -1,23 +1,16 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\(","\\)"] ],
-    },
-    TeX: {
-      Macros: {
-        bra: ["\\langle{#1}|", 1],
-        ket: ["|{#1}\\rangle", 1],
-        braket: ["\\langle{#1}\\rangle", 1],
-        bk: ["\\langle{#1}|{#2}|{#3}\\rangle", 3]
-     }
-   }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML' async></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
 </head>
+
 
 
 

@@ -6,13 +6,13 @@
 
 口罩现在已经成为生活的一部分了，如何利用算法实现大概这种效果
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/project_maskdemo.jpeg" style="zoom:67%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/project_maskdemo.jpeg" style="zoom:67%;" />
 
 ## 算法
 
 很明显是一个目标检测的算法，选用yolov4-tiny
 
-<img src="https://fastly.jsdelivr.net/gh/lblbk/picgo/work/yolov4-tiny.png" style="zoom: 38%;" />
+<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/yolov4-tiny.png" style="zoom: 38%;" />
 
 ## 训练
 
