@@ -1,22 +1,31 @@
 <head>
 	<style type="text/css">h1:first-child {display:none;}</style>
-	<script type="text/javascript" src="https://gcorejs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$$','$$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\(","\\)"] ],
+    },
+    TeX: {
+      Macros: {
+        bra: ["\\langle{#1}|", 1],
+        ket: ["|{#1}\\rangle", 1],
+        braket: ["\\langle{#1}\\rangle", 1],
+        bk: ["\\langle{#1}|{#2}|{#3}\\rangle", 3]
+     }
+   }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML' async></script>
 </head>
+
 
 
 # Batch Normalization
 
 > 这篇是对 bn 使用中个人问题的总结 并不是论文翻译
 
-Batch Norm 是 2015 年由Google 提出，这段时间经常遇到 BN 中问题，以前觉得自己理解了，其实还有很多小细节没有搞懂，因此写一篇详解
+BatchNorm 是 2015 年由Google 提出，这段时间经常遇到 BN 中问题，以前觉得自己理解了，其实还有很多小细节没有搞懂，因此写一篇详解
 
 ### Normalization
 
@@ -34,7 +43,7 @@ Google 将这一现象总结为 Internal Covariate Shift，简称 ICS. 什么是
 
 > 大家都知道在统计机器学习中的一个经典假设是“源空间（source domain）和目标空间（target domain）的数据分布（distribution）是一致的”。如果不一致，那么就出现了新的机器学习问题，如 transfer learning / domain adaptation 等。而 covariate shift 就是分布不一致假设之下的一个分支问题，它是指源空间和目标空间的条件概率是一致的，但是其边缘概率不同，即：对所有 
 >
-> $$x \in \chi, P_s(Y|X=x)=P_t(Y|X=x)$$
+> $$ x \in \chi, P_s(Y|X=x)=P_t(Y|X=x) $$
 >
 >  但是​
 >
