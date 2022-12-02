@@ -8,11 +8,17 @@
 
 ### 读书📖
 
-### 旅行 :airplane:
+### 旅行 🚅
 
-### <span id="memo">碎碎念</span>
+### <span id="memo">碎碎念</span> 🛺
 
-> 更新日常生活🛺
+> 更新日常生活 🚲
+
+*2022.12.01*
+
+我们在一起了，挺好的
+
+最近比较折腾，挺累的，博客没干货文章更新
 
 *2022.09.18*
 
@@ -20,11 +26,11 @@
 
 又被污染了，现在是 `gcore.jsdelivr.net` 头疼
 
-这博客好像越变越丰富多彩了，最近又学会了嵌入音乐，顺便推荐几首，这里是`spotify` 需要fq, 看不到就算了吧
+这博客好像越变越丰富多彩了，最近又学会了嵌入音乐，顺便推荐几首，这里是 [Spotify](https://open.spotify.com/) 需要fq, 看不到就算了吧
 
 <div>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VeQG3EL9CCttWSxbHnNX1?utm_source=generator" width="48%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VeQG3EL9CCttWSxbHnNX1?utm_source=generator" width="48%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/47jNRjNAnYY9nUbIMD0Zxi?utm_source=generator" width="48%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 </div>
 
 *2022.08.03*
