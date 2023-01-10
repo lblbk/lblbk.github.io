@@ -1,4 +1,4 @@
-<head><style type="text/css">h1:first-child {display:none;}</style></head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" type="image/x-icon" href="https://fastly.jsdelivr.net/gh/lblbk/picgo/img/favicon.ico?"></head>
 
 <img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 

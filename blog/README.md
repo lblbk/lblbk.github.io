@@ -1,4 +1,4 @@
-<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" href="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/cola.svg"></head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" type="image/x-icon" href="../cola.ico?"></head>
 
 <img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 

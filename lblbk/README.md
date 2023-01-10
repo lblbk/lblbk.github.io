@@ -1,4 +1,4 @@
-<head><style type="text/css">h1:first-child {display:none;}</style></head>
+<head><style type="text/css">h1:first-child {display:none;}</style><link rel="shortcut icon" type="image/x-icon" href="../favicon.ico?"></head>
 
 <img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20201224164001.png" width="11%" height="11%" >
 
@@ -13,6 +13,10 @@
 ### <span id="memo">碎碎念</span> 🛺
 
 > 更新日常生活 🚲
+
+*2023.01.13*
+
+公司优化，拿了 n+1 走人，当时也准备着年后就走人，现在挺好，有更多时间准备了
 
 *2022.12.01*
 
