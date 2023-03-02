@@ -19,7 +19,7 @@
 
 #### 分类
 
-<img src="https://upload-images.jianshu.io/upload_images/1156494-ab4cecff133d87b3.png" alt="img" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/image/npm/blog-pl-algorithm-sort-1.png" alt="img" style="zoom:50%;" />
 
 首先排序分为：
 
@@ -31,7 +31,7 @@
 
 #### 性能比较
 
-<img src="https://upload-images.jianshu.io/upload_images/1156494-62f859c2ac6f95ff.png" alt="img" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/image/npm/blog-pl-algorithm-sort-2.png" alt="img" style="zoom: 67%;" />
 
 #### 测试代码
 
