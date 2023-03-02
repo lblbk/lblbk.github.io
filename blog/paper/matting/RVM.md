@@ -87,7 +87,7 @@ PointRend [19] 已经探索了基于补丁的细化用于分割和 BGMv2 [22] �
 
 我们的架构由一个提取单个帧特征的编码器、一个聚合时间信息的循环解码器和一个用于高分辨率上采样的深度引导滤波器模块组成。图 2 显示了我们的模型架构
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/rvm-arch.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/rvm-arch.png" style="zoom:50%;" />
 
 #### Feature-Extraction Encoder
 
@@ -153,7 +153,7 @@ it can be given T frames at once as input and each layer processes all T frames 
 
 这个模型的训练看起来训练是很复杂的，分成四个步骤单独训练，这里就贴一张训练的大概流程
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/RVM_train.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/RVM_train.png" style="zoom: 33%;" />
 
 #### 数据集
 
@@ -211,11 +211,11 @@ $$
 
 实验的效果图片就不多放了，感兴趣可以去论文里面查看效果，这里贴出该算法与其他算法的对比情况
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/RVM_metrics2.png" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/RVM_metrics2.png" style="zoom: 50%;" />
 
 FGF也就是上采样还原模块，这里主要对比是 MODNet ，可以看到各方面提升很明显，我以前也用过MODNet, 效果确实不是很好，人像扣取并不完整
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/RVM_metrics.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/RVM_metrics.png" style="zoom: 33%;" />
 
 这部分是速度的对比，实时扣像中效果和MODNet的对比效果，1080P的时候RVM的FPS最高
 

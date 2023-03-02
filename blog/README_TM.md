@@ -6,30 +6,27 @@
 
 **[🔬 Index](/)** \| **[🔎 Blog](/blog)** \|**[🕙Time](/blog/readme_tm)** \| **[📚 lblbk](/lblbk)**
 
-博客可按更新时间排序查看 [Time](/blog/readme_tm)
+此处博客按更新时间排序
 
-### 待完成 ✅
+| 类别             | 标题                                           | 时间       |
+| ---------------- | ---------------------------------------------- | ---------- |
+| [PL](#) 算法     | [数据结构与算法-查找](/blog/pl/algorithm/find) | 2023-02-17 |
+| [PL](#) 算法     | [数据结构与算法-排序](/blog/pl/algorithm/sort) | 2023-02-16 |
+| [OD](#) 目标检测 | [Yolov3 算法见解](/blog/paper/od/yolov3)       | 2023-02-14 |
 
-- yolov3 未完成
-
-### CV
+> 以下内容是之前更新 不再做整理
 
 - DIP 数字图像处理
   - [图像滤波](/blog/cv/dip/img_filter_classification)
   - [yuv论述](/blog/cv/dip/yuv)
 
-### Paper
-
-各个领域论文读后笔记📒
-
 - Base 基本知识
-  
   - [卷积](/blog/paper/base/convolution)
   - [激活函数](/blog/paper/base/activation)
   - [Batch Normalization](/blog/paper/base/batchnormalization)
   - [SE_Block](/blog/paper/base/se_block)
+
 - Backbone 分类网络
-  
   - [ResNet](/blog/paper/backbone/resnet) 待完成
   - [MobileNetV1](/blog/paper/backbone/mobilenetv1)
   - [MobileNetV2](/blog/paper/backbone/mobilenetv2)
@@ -37,24 +34,20 @@
   - [ShuffleNetV1](/blog/paper/backbone/shufflenetv1)
   - [ShuffleNetV2](/blog/paper/backbone/shufflenetv2) 待完成
   - [Transformer](#) 待完成
+
 - Seg 语义分割
-  
   - [FCN](/blog/paper/seg/fcn) 待完成
   - [U-Net](/blog/paper/seg/unet) 待完成
   - [U2Net](/blog/paper/seg/u2net) 待完成
+
 - OD 目标检测
-  
   - [FPN](/blog/paper/od/fpn)
+
 - Matting
-  
   - [Matting](/blog/paper/matting/matting)
   - [BackgroundMatting](/blog/paper/matting/backgroundmatting)
   - [MODNet](/blog/paper/matting/modnet)
   - [RVM](/blog/paper/matting/RVM)
-
-### PL
-
-记录📝编程语言
 
 - C++
   - [编译器概述](/blog/pl/cpp/compiler)
@@ -77,24 +70,10 @@
   - [numpy](/blog/python/pip/numpy)
   
 - Algorithm
-
-	> 算法，程序员必备技能！走遍大厂都不怕！
-
 	- leetcode
   	- [🧭刷题导航](/blog/pl/algorithm/guide)
-  - [数据结构与算法-排序](/blog/pl/algorithm/sort)
-  - [数据结构与算法-查找](/blog/pl/algorithm/find)
-
-### Train & Inference
-
-训练框架，主流PyTorch tensorflow一些使用方法和技巧
-
-推理部署框架，caffe ncnn snpe等
-
-深度学习工业知识，比如落地优化，模型部署，算子加速
 
 - Pytorch
-
   - [autograd](/blog/dl/pytorch/autograd)
   - [conv2d参数](/blog/dl/pytorch/convolution)
   - [pytorch 常用函数](/blog/dl/pytorch/pytorch_function)
@@ -112,7 +91,6 @@
   - [常用指标](/blog/dl/pytorch/evaluation)
 
 - Tensorflow
-
   - [tensorflow](/blog/dl/tensorflow/tensorflow)
 
 - Caffe
@@ -121,24 +99,8 @@
 - op 深度学习算子
   - [卷积实现](/blog/dl/op/conv)
 
-### OS
-
-操作系统, 考研必备技能...🙋
-
 - Linux
   - [linux安装软件](/blog/os/linux/linux_install)
-- macOS
-- Android
-
-### Hardware
-
-计算机硬件相关知识，但没找到合适英文名
-
-组原，它还是回来了，没办法，部署性能优化还是要和硬件打交道
-
-### Tools
-
-工作中常用效率提升的小工具🛠
 
 - [git](/blog/tools/git)
 - [latex](/blog/tools/latex)
@@ -158,6 +120,7 @@
     color: #999;
     padding: 2px;">菲尼克斯获得2019年奥斯卡影帝后与女友坐在台阶上吃晚饭</div>
 </center>
-*🎉仅作为个人笔记记录所用，主要参考引荐了网上很多的优秀教程，时而添加一些自我理解*
+
+*🎉仅作为个人笔记记录所用，参考引荐了网上很多的优秀教程*
 
 *🎉本文档主要记录实现方式*

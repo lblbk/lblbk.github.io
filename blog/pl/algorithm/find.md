@@ -10,10 +10,6 @@
         });
     </script>
 </head>
+## 数据结构与算法-查找
 
-# U2Net
-
-> U2Net 一篇很意思的论文，并不是效果很好但实时性很差
-
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210808151739.png" style="zoom: 33%;" />
-
+还没写呢 哈哈哈 回头再来吧...🙆

@@ -37,7 +37,7 @@ plt.show()
   scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda= lambda2)
   ```
 
-  ![image-20210106174115097](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182819.png)
+  ![image-20210106174115097](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182819.png)
 
   - 循环中更改
 
@@ -50,7 +50,7 @@ plt.show()
               # params['weight_decay'] = 0.5  # 当然也可以修改其他属性
   ```
 
-  ![image-20210106174353583](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182839.png)
+  ![image-20210106174353583](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182839.png)
 
 - ##### **阶梯递降**
 
@@ -61,13 +61,13 @@ plt.show()
 scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.5, last_epoch=-1)
 ```
 
-![image-20210106181714922](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182849.png)
+![image-20210106181714922](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182849.png)
 
   ```python
   scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, milestones=[30,60,80],gamma=0.5)
   ```
 
-![image-20210106174651150](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182906.png)
+![image-20210106174651150](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182906.png)
 
 - ##### **指数衰减**
 
@@ -77,7 +77,7 @@ scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.5, l
 scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
 ```
 
-![image-20210106174913757](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106183629.png)
+![image-20210106174913757](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106183629.png)
 
 - 余弦退火
 
@@ -89,7 +89,7 @@ scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
 scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=20, eta_min = 1e-5)
 ```
 
-![image-20210106175354834](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182915.png)
+![image-20210106175354834](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182915.png)
 
 - ##### **热启动余弦退火**
 
@@ -101,7 +101,7 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=20, eta_
 scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=20, T_mult=2, eta_min = 1e-5)
 ```
 
-![image-20210106175706135](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182924.png)
+![image-20210106175706135](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182924.png)
 
 - 第一次退火到大学习率
 
@@ -112,7 +112,7 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=
 scheduler = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr=0.1, steps_per_epoch=10, epochs=10)
 ```
 
-![image-20210106180146555](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182932.png)
+![image-20210106180146555](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182932.png)
 
 - **自适应下降**
 
@@ -127,7 +127,7 @@ scheduler = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr=0.1, steps_per
 scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.1, patience=3)
 ```
 
-![image-20210106181043642](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182942.png)
+![image-20210106181043642](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182942.png)
 
 - **循环学习率**
 
@@ -137,7 +137,7 @@ scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.1, pa
 scheduler = torch.optim.lr_scheduler.CyclicLR(optimizer,base_lr=0.05,max_lr=0.1,step_size_up=10,step_size_down=20)
 ```
 
-![image-20210106175914998](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210106182948.png)
+![image-20210106175914998](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210106182948.png)
 
 - ##### **warm up**
 

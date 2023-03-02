@@ -31,11 +31,11 @@ for (int i=0; i<4; i++) {
 
 当我要去看内存的时候，我一度以为是自己没找对地方
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/memory01.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/memory01.png" style="zoom:50%;" />
 
 这个我完全没看懂和我存储的值`[0, 1, 2, 3]`有任何关系，这里我又选择了其他两种方案，直接在vs code输入gdb命令查看，以及通过函数打印，结果一样
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/memory02.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/memory02.png" style="zoom:50%;" />
 
 > 这里大概说一下三种方式
 >

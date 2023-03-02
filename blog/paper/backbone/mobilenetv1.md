@@ -21,7 +21,7 @@
 
 可分离卷积的提出是在这篇论文中[Simplifying ConvNets for Fast Learning](https://link.zhihu.com/?target=https%3A//www.researchgate.net/profile/Christophe_Garcia2/publication/230867026_Simplifying_ConvNets_for_Fast_Learning/links/54ae96f60cf29661a3d39931.pdf)，形式如下
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_separable.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_separable.png" style="zoom:50%;" />
 
 Laurent Sifre博士2013年在谷歌实习期间，将可分离卷积拓展到了深度（depth），并且在他的博士论文[Rigid-motion scattering for image classification](https://link.zhihu.com/?target=http%3A//www.cmapx.polytechnique.fr/~sifre/research/phd_sifre.pdf)中有详细的描写
 
@@ -47,17 +47,17 @@ $$
 
 输入一个`12*12*3`的一个输入特征图，经过` 5*5*3`的卷积核得到一个`8*8*1`的输出特征图。如果我们此时有256个特征图，我们将会得到一个`8*8*256`的输出特征图
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_conv1.png" style="zoom:75%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_conv1.png" style="zoom:75%;" />
 
 下面这张图描述得更加清晰
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_conv2.png" style="zoom: 50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_conv2.png" style="zoom: 50%;" />
 
 ##### 1.2.2 深度可分离卷积
 
 **深度卷积**(depthwise convolution)
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_separable2.png" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_separable2.png" style="zoom:67%;" />
 
 输入`12*12*3` 的特征图，经过`5*5*1*3`的深度卷积之后，得到了`8*8*3`的输出特征图。输入和输出的维度是不变的3，这样就会有一个问题，通道数太少，特征图的维度太少，
 
@@ -67,16 +67,16 @@ $$
 
 深度卷积的过程中，我们得到了8*8*3的输出特征图，我们用256个`1*1*3`的卷积核对输入特征图进行卷积操作，输出的特征图和标准的卷积操作一样都是`8*8*256`了。
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_pointwise.png" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_pointwise.png" style="zoom: 67%;" />
 
 #### 1.3 区别
 
 想要输出同样的维度，传统卷积只需要一步就可以做到，深度可分离卷积需要两步
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_conv3.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_conv3.png" style="zoom: 33%;" />
 
 传统卷积和可分离卷积区别手绘图，来源 [轻量级网络--MobileNet论文解读_DFan的NoteBook-CSDN博客](https://blog.csdn.net/u011974639/article/details/79199306)
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_conv.png" style="zoom: 25%;" /><img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_depth.png" style="zoom: 25%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_conv.png" style="zoom: 25%;" /><img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_depth.png" style="zoom: 25%;" />
 
 #### 1.4 计算量
 
@@ -84,7 +84,7 @@ $$
 
 ##### 1.4.1 传统卷积计算量
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_flops1.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_flops1.png" style="zoom: 33%;" />
 
 按照原论文中的计算方式, 几个参数的含义可以按照图片理解
 
@@ -102,7 +102,7 @@ $$
 
 ##### 1.4.2 深度可分离卷积计算量
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_flops2.png" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_flops2.png" style="zoom:33%;" />
 
 参数量: 
 
@@ -134,7 +134,7 @@ $$
 
 ##### 2.1.1 组合结构
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_backbone.png" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_backbone.png" style="zoom: 33%;" />
 
 传统卷积是 Conv -> BN -> Relu
 
@@ -168,12 +168,12 @@ $$
 
 MobileNet网络架构是比较清晰明了的，通过基本小模块组装的基本模块conv dw组成，整个模型是一个流线型，一共由 28层构成（不包括AvgPool 和 FC 层，且把深度卷积和逐点卷积分开算），其除了第一层采用的是标准卷积核之外，剩下的卷积层都是用Depth Wise Separable Convolution, 具体参数如下表
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mobilenetv1_arch.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mobilenetv1_arch.png" style="zoom:50%;" />
 
 ### 3 总结
 
 这里给出一张原论文中的参数量和准确率对比图，可以看到在参数明显减少的情况下，准确度并没有下降多少
 
-![](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/mbnv1-test.png)
+![](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/mbnv1-test.png)
 
 > 暂时更新到这里，后续继续更新

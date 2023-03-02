@@ -4,7 +4,7 @@
 
 给定一个二维矩阵，计算其子矩形范围内元素的总和，该子矩阵的左上角为 `(row1, col1)` ，右下角为 `(row2, col2)` 。
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210303173815.png" alt="Range Sum Query 2D" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210303173815.png" alt="Range Sum Query 2D" style="zoom:33%;" />
 
 上图子矩阵左上角 (row1, col1) = **(2, 1)** ，右下角(row2, col2) = **(4, 3)，**该子矩形内元素的总和为 8。
 
@@ -20,7 +20,7 @@
 
 $S(O, D) = S(O, C) + S(O, B) - S(O, A) + D$
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210303175753.jpeg" alt="304.001.jpeg" style="zoom: 25%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210303175753.jpeg" alt="304.001.jpeg" style="zoom: 25%;" />
 
 减去 S(O, A) 的原因是 S(O, C) 和 S(O, B)中都有 S(O, A), 即加了两次 S(O, A)，所以需要减去一次 S(O, A)。
 
@@ -35,7 +35,7 @@ $preSum[i][j] = preSum[i - 1][j] + preSum[i][j - 1] - preSum[i - 1][j - 1] + mat
 
 $S(A, D) = S(O, D) - S(O, E) - S(O, F) + S(O, G)$
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210303175803.jpeg" alt="304.002.jpeg" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210303175803.jpeg" alt="304.002.jpeg" style="zoom:25%;" />
 
 加上子矩形 S(O, G) 面积的原因是 S(O, E) 和 S(O, F) 中都有 S(O, G)，即减了两次 S(O, G)，所以需要加上一次 S(O, G)。
 

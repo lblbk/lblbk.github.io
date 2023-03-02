@@ -23,5 +23,5 @@ Unet 的初衷是为了解决生物医学图像方面的问题，由于效果确
 
 #### 网络结构
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210808151732.png" alt="unet" style="zoom: 40%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210808151732.png" alt="unet" style="zoom: 40%;" />
 

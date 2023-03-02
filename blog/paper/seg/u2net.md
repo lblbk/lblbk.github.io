@@ -11,9 +11,9 @@
     </script>
 </head>
 
-# FPN
+# U2Net
 
-> 目标检测领域很火的一篇论文，后续更新
->
-> [[1612.03144\] Feature Pyramid Networks for Object Detection (arxiv.org)](https://arxiv.org/abs/1612.03144)
+> U2Net 一篇很意思的论文，并不是效果很好但实时性很差
+
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210808151739.png" style="zoom: 33%;" />
 

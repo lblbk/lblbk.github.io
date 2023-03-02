@@ -33,7 +33,7 @@
 
 在目前的一些主流网络中，通常使用pointwise卷积进行维度的降低，从而降低网络的复杂度，但由于输入维度较高，pointwise卷积的开销是十分巨大的。对于小网络而言，昂贵的pointwise卷积会带来明显的性能下降，比如在ResNext unit中，pointwise卷积占据了93.4%的计算量。为此，论文引入了分组卷积，首先探讨了两种ShuffleNet的实现：
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-fig1.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-fig1.png" style="zoom:50%;" />
 
 - 图1a是最直接的方法，将所有的操作进行了绝对的维度隔离，但这会导致特定的输出仅关联了很小一部分的输入，阻隔了组间的信息流，降低了表达能力。
 - 图1b对输出的维度进行重新分配，首先将每个组的输出分成多个子组，然后将每个子组输入到不同的组中，能够很好地保留组间的信息流。
@@ -42,7 +42,7 @@
 
 ### 2.3 ShuffleNet Units
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-fig2.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-fig2.png" style="zoom:50%;" />
 
 基于channel shuffle操作，论文提出了两种ShuffleNet unit，从图2a的基础残差结构开始，中间包含一个$3\times 3$深度卷积进行特征提取：
 
@@ -60,25 +60,25 @@ ShuffleNet的结构如表1所示，3个不同的stage由ShuffleNet unit堆叠而
 
 分组卷积可以让网络获得更多的通道信息，同时计算量并不会增大太多；相反深度可分离卷积却耗时更长，因此网络只在瓶颈上使用深度可分离卷积。
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-tab1.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-tab1.png" style="zoom:50%;" />
 
 ## 4 实验
 
 为了设定不同的网络复杂度，对表1的网络层维度加一个缩放因子$s$，比如ShuffleNet 0.5X为表1的所有层输出维度减少一倍。
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-tab2.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-tab2.png" style="zoom:50%;" />
 
 不同scale的分组和性能，分组越大信息获取也就越完善
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-tab3.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-tab3.png" style="zoom:50%;" />
 
 对比同复杂度的MobileNet性能。
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-tab5.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-tab5.png" style="zoom:50%;" />
 
 对比主流网络的性能
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/shufflenetv1-tab6.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/shufflenetv1-tab6.png" style="zoom:50%;" />
 
 ## 5 结论
 

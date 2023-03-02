@@ -2,7 +2,7 @@
 
 单机多卡的训练，即并行训练，分为数据并行，模型并行两种
 
-![image-20210110153637749](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210110153644.png)
+![image-20210110153637749](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210110153644.png)
 
 - ### `nn.DataParallel` 
 

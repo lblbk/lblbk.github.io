@@ -367,11 +367,11 @@ a, b, *c = [1, 2, 3, 4]
 
     > 搭建网络经常会碰到传入参数 `nn.Sequential(*layers)` , 通过debug查看 `layers` 中的值
     >
-    > ![image-20210221131418699](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210221131425.png) 
+    > ![image-20210221131418699](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210221131425.png) 
     >
     > 
     >
-    > 经过 `nn.Sequential(*layers)` 后，`res` 变成了下图![image-20210221131609015](https://gcore.jsdelivr.net/gh/lblbk/picgo/work/20210221131609.png)
+    > 经过 `nn.Sequential(*layers)` 后，`res` 变成了下图![image-20210221131609015](https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/20210221131609.png)
     >
     > 返回 `vgg11` 的网络
 

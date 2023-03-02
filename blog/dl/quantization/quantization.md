@@ -43,11 +43,11 @@ $$
 
 ### 量化操作
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/quantization-proc.jpg" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/quantization-proc.jpg" style="zoom: 67%;" />
 
 ### 对称量化与非对称量化
 
-<img src="https://gcore.jsdelivr.net/gh/lblbk/picgo/work/quantization-mapping.png" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/work/quantization-mapping.png" style="zoom:50%;" />
 
 ### 卷积量化
 
