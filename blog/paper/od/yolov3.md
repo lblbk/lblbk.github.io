@@ -149,7 +149,7 @@ https://www.cnblogs.com/YiXiaoZhou/p/7429481.html
 
 ##### Darknet-53
 
-<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/raw/blog-paper-od-yolov3-7.png" alt="image-20230222234928570" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/npm/lblbk-picgo@latest/image/npm/blog-paper-od-yolov3-7.png" alt="image-20230222234928570" style="zoom:50%;" />
 
 DarkNet53网络使用了更多的卷积——53层卷积, 并添加了残差网络中的残差连结结构，以提升网络的性能的降采样操作，没有使用Maxpooling层，而是由stride=2的卷积来实现。卷积层仍旧是**线性卷积、BN层以及LeakyReLU激活函数**的串联组合，借用网友绘制的图片https://www.cnblogs.com/chenhuabin/p/13908615.html
 
